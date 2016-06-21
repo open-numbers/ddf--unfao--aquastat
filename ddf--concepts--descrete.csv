@@ -1,0 +1,5 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+area,Area,entity_domain
+area_id,Area Id,string
