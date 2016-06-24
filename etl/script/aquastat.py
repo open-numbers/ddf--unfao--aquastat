@@ -29,15 +29,15 @@ def extract_concepts_continuous(all_data):
     return all_concepts[['concept', 'concept_type', 'name', 'variable_id']]
 
 
-def extract_concepts_descrete():
+def extract_concepts_discrete():
     """manually create a descrete concepts dataframe."""
-    desc = pd.DataFrame([['name', 'Name', 'string'],
+    disc = pd.DataFrame([['name', 'Name', 'string'],
                          ['year', 'Year', 'time'],
                          ['area', 'Area', 'entity_domain'],
                          ['area_id', 'Area Id', 'string']
                          ], columns=['concept', 'name', 'concept_type'])
 
-    return desc
+    return disc
 
 
 def extract_entities_area(all_data):
@@ -90,9 +90,9 @@ if __name__ == '__main__':
     path = os.path.join(out_dir, 'ddf--concepts--continuous.csv')
     continuous_concept.to_csv(path, index=False)
 
-    descrete_concept = extract_concepts_descrete()
-    path = os.path.join(out_dir, 'ddf--concepts--descrete.csv')
-    descrete_concept.to_csv(path, index=False)
+    discrete_concept = extract_concepts_discrete()
+    path = os.path.join(out_dir, 'ddf--concepts--discrete.csv')
+    discrete_concept.to_csv(path, index=False)
 
     print('creating entities files...')
     area = extract_entities_area(all_data)
