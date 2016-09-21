@@ -14,3 +14,8 @@ download the source using the query interface from fao.
 4. select 'None' in metadata
 5. click Submit
 6. download flat CSV in the result page.
+
+## Issue
+
+There are some measures that share same name/description but different 
+varialbe Id in the dataset. [Issue #1](https://github.com/semio/ddf--fao--aquastat/issues/1)

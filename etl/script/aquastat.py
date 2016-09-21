@@ -34,9 +34,9 @@ def extract_concepts_discrete():
     disc = pd.DataFrame([['name', 'Name', 'string'],
                          ['year', 'Year', 'time'],
                          ['area', 'Area', 'entity_domain'],
-                         ['area_id', 'Area Id', 'string']
+                         ['area_id', 'Area Id', 'string'],
+                         ['variable_id', 'Variable Id', 'string']
                          ], columns=['concept', 'name', 'concept_type'])
-
     return disc
 
 
