@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 
-from ddf_utils.str import to_concept_id
+from ddf_utils.str import to_concept_id, format_float_sigfig
 from ddf_utils.index import create_index_file
 
 
@@ -68,9 +68,9 @@ def extract_datapoints(all_data):
 
             df_concept['area'] = df['Area'].map(lambda x: to_concept_id(x.split('|')[0]))
             df_concept = df_concept.rename(columns={'Value': concept, 'Year': 'year'})
+            df_yield = df_concept[['area', 'year', concept]].copy()
 
-            yield concept, df_concept
-
+            yield concept, df_yield
 
 
 if __name__ == '__main__':
@@ -102,7 +102,8 @@ if __name__ == '__main__':
     print('creating datapoint files...')
     for k, df in extract_datapoints(all_data):
         path = os.path.join(out_dir, 'ddf--datapoints--{}--by--area--year.csv'.format(k))
-        df[['area', 'year', k]].to_csv(path, index=False)
+        df[k] = df[k].map(format_float_sigfig)
+        df.to_csv(path, index=False)
 
     print('creating index file...')
     create_index_file(out_dir)
