@@ -5,7 +5,6 @@ import numpy as np
 import os
 
 from ddf_utils.str import to_concept_id, format_float_sigfig
-from ddf_utils.index import get_datapackage
 
 
 # configuration of file path
@@ -26,7 +25,8 @@ def extract_concepts_continuous(all_data):
     all_concepts.columns = ['name', 'variable_id', 'concept']
     all_concepts['concept_type'] = 'measure'
 
-    return all_concepts[['concept', 'concept_type', 'name', 'variable_id']]
+    return (all_concepts[['concept', 'concept_type', 'name', 'variable_id']]
+            .drop_duplicates(subset='concept'))
 
 
 def extract_concepts_discrete():
@@ -48,14 +48,12 @@ def extract_entities_area(all_data):
 
     all_area = pd.concat(all_area)
     all_area = all_area.drop_duplicates()
-    # all Area in the source file have "ISO|name" format.
-    # so we seperate those into 2 columns.
-    all_area['area'] = all_area['Area'].map(lambda x: x.split('|')[0])
-    all_area['name'] = all_area['Area'].map(lambda x: x.split('|')[1])
+    # create the area and name column.
+    all_area['name'] = all_area['Area']
+    all_area['area'] = all_area['name'].map(to_concept_id)
     # and drop the origin one.
     all_area = all_area.drop('Area', axis=1)
-    all_area['area'] = all_area['area'].map(to_concept_id)
-    all_area.columns = ['area_id', 'area', 'name']
+    all_area.columns = ['area_id', 'name', 'area']
 
     return all_area[['area', 'name', 'area_id']]
 
@@ -66,11 +64,11 @@ def extract_datapoints(all_data):
             df_concept = df.ix[ids].copy()
             concept = to_concept_id(g)
 
-            df_concept['area'] = df['Area'].map(lambda x: to_concept_id(x.split('|')[0]))
+            df_concept['area'] = df['Area'].map(to_concept_id)
             df_concept = df_concept.rename(columns={'Value': concept, 'Year': 'year'})
             df_yield = df_concept[['area', 'year', concept]].copy()
 
-            yield concept, df_yield
+            yield concept, df_yield.drop_duplicates()
 
 
 if __name__ == '__main__':
@@ -81,7 +79,7 @@ if __name__ == '__main__':
             path = os.path.join(source_dir, f)
             all_data.append(pd.read_csv(path,
                                         skiprows=2,
-                                        skip_footer=8,
+                                        skipfooter=8,
                                         index_col=False,
                                         engine='python'))
 
@@ -101,11 +99,9 @@ if __name__ == '__main__':
 
     print('creating datapoint files...')
     for k, df in extract_datapoints(all_data):
+        df_ = df.copy()
         path = os.path.join(out_dir, 'ddf--datapoints--{}--by--area--year.csv'.format(k))
-        df[k] = df[k].map(format_float_sigfig)
-        df.to_csv(path, index=False)
-
-    print('creating index file...')
-    get_datapackage(out_dir, use_existing=True, to_disk=True)
+        df_[k] = df_[k].map(format_float_sigfig)
+        df_.to_csv(path, index=False)
 
     print('Done.')
