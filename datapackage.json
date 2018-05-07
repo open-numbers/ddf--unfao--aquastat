@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-04-16T02:22:27.376371+00:00",
+    "created": "2018-05-07T17:07:34.211597+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -3788,8 +3788,8 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts--discrete",
-                    "ddf--concepts--continuous"
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
                 ]
             },
             {
@@ -3798,8 +3798,8 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts--discrete",
-                    "ddf--concepts--continuous"
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
                 ]
             },
             {
