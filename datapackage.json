@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-05-09T06:00:54.390248+00:00",
+    "created": "2018-05-09T06:13:31.576082+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -2292,8 +2292,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year.csv",
-            "name": "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year",
+            "path": "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year.csv",
+            "name": "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year",
             "schema": {
                 "fields": [
                     {
@@ -2303,7 +2303,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "municipal_water_withdrawal_per_captia"
+                        "name": "municipal_water_withdrawal_per_capita"
                     }
                 ],
                 "primaryKey": [
@@ -4929,9 +4929,9 @@
                     "area",
                     "year"
                 ],
-                "value": "municipal_water_withdrawal_per_captia",
+                "value": "municipal_water_withdrawal_per_capita",
                 "resources": [
-                    "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year"
+                    "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year"
                 ]
             },
             {

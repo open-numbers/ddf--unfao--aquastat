@@ -106,7 +106,7 @@ long_term_average_annual_precipitation_in_volume,measure,Long-term average annua
 mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources,measure,MDG 7.5. Freshwater withdrawal as % of total renewable water resources,4275
 municipal_water_withdrawal,measure,Municipal water withdrawal,4251
 municipal_water_withdrawal_as_pct_of_total_withdrawal,measure,Municipal water withdrawal as % of total withdrawal,4255
-municipal_water_withdrawal_per_captia,measure,Municipal Water Withdrawal Per Captia,
+municipal_water_withdrawal_per_capita,measure,Municipal Water Withdrawal Per Capita,
 national_rainfall_index_nri,measure,National Rainfall Index (NRI),4472
 non_irrigated_cultivated_area_drained,measure,Non-irrigated cultivated area drained,4304
 not_treated_municipal_wastewater,measure,Not treated municipal wastewater,4491
