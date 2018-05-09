@@ -1,178 +1,179 @@
 concept,concept_type,name,variable_id
 agricultural_water_withdrawal,measure,Agricultural water withdrawal,4250
-industrial_water_withdrawal,measure,Industrial water withdrawal,4252
-municipal_water_withdrawal,measure,Municipal water withdrawal,4251
-total_water_withdrawal,measure,Total water withdrawal,4253
-irrigation_water_requirement,measure,Irrigation water requirement,4260
-agricultural_water_withdrawal_as_pct_of_total_water_withdrawal,measure,Agricultural water withdrawal as % of total water withdrawal,4254
-industrial_water_withdrawal_as_pct_of_total_water_withdrawal,measure,Industrial water withdrawal as % of total water withdrawal,4256
-municipal_water_withdrawal_as_pct_of_total_withdrawal,measure,Municipal water withdrawal as % of total withdrawal,4255
-total_water_withdrawal_per_capita,measure,Total water withdrawal per capita,4257
-environmental_flow_requirements,measure,Environmental Flow Requirements,4549
-fresh_surface_water_withdrawal_primary_and_secondary,measure,Fresh surface water withdrawal (primary and secondary),4261
-fresh_groundwater_withdrawal_primary_and_secondary,measure,Fresh groundwater withdrawal (primary and secondary),4262
-total_freshwater_withdrawal_primary_and_secondary,measure,Total freshwater withdrawal (primary and secondary),4263
-mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources,measure,MDG 7.5. Freshwater withdrawal as % of total renewable water resources,4275
 agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources,measure,Agricultural water withdrawal as % of total renewable water resources,4273
-sdg_6_4_2_water_stress,measure,SDG 6.4.2. Water Stress,4550
-irrigation_water_withdrawal,measure,Irrigation water withdrawal,4475
-produced_municipal_wastewater,measure,Produced municipal wastewater,4269
-treated_municipal_wastewater,measure,Treated municipal wastewater,4270
-number_of_municipal_wastewater_treatment_facilities,measure,Number of municipal wastewater treatment facilities,4515
-desalinated_water_produced,measure,Desalinated water produced,4264
-collected_municipal_wastewater,measure,Collected municipal wastewater,4493
-capacity_of_the_municipal_wastewater_treatment_facilities,measure,Capacity of the municipal wastewater treatment facilities,4516
-not_treated_municipal_wastewater,measure,Not treated municipal wastewater,4491
-not_treated_municipal_wastewater_discharged_secondary_water,measure,Not treated municipal wastewater discharged (secondary water),4517
-direct_use_of_treated_municipal_wastewater_for_irrigation_purposes,measure,Direct use of treated municipal wastewater for irrigation purposes,4490
-area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater,measure,Area equipped for irrigation by direct use of treated municipal wastewater,4533
-direct_use_of_treated_municipal_wastewater,measure,Direct use of treated municipal wastewater,4535
-treated_municipal_wastewater_discharged_secondary_water,measure,Treated municipal wastewater discharged (secondary water),4510
-direct_use_of_agricultural_drainage_water,measure,Direct use of agricultural drainage water,4451
-direct_use_of_not_treated_municipal_wastewater_for_irrigation_purposes,measure,Direct use of not treated municipal wastewater for irrigation purposes,4512
+agricultural_water_withdrawal_as_pct_of_total_water_withdrawal,measure,Agricultural water withdrawal as % of total water withdrawal,4254
+agriculture_value_added_pct_gdp,measure,"Agriculture, value added (% GDP)",4113
+arable_land_area,measure,Arable land area,4101
+area_equipped_for_full_control_irrigation_actually_irrigated,measure,Area equipped for full control irrigation: actually irrigated,4461
+area_equipped_for_full_control_irrigation_localized_irrigation,measure,Area equipped for full control irrigation: localized irrigation,4310
+area_equipped_for_full_control_irrigation_sprinkler_irrigation,measure,Area equipped for full control irrigation: sprinkler irrigation,4309
+area_equipped_for_full_control_irrigation_surface_irrigation,measure,Area equipped for full control irrigation: surface irrigation,4308
+area_equipped_for_full_control_irrigation_total,measure,Area equipped for full control irrigation: total,4311
+area_equipped_for_irrigation_actually_irrigated,measure,Area equipped for irrigation: actually irrigated,4318
+area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater,measure,Area equipped for irrigation by direct use of non-treated municipal wastewater,4513
 area_equipped_for_irrigation_by_direct_use_of_not_treated_municipal_wastewater,measure,Area equipped for irrigation by direct use of not treated municipal wastewater,4534
-flood_occurrence_wri,measure,Flood occurrence (WRI),4543
-total_population_with_access_to_safe_drinking_water_jmp,measure,Total population with access to safe drinking-water (JMP),4114
-rural_population_with_access_to_safe_drinking_water_jmp,measure,Rural population with access to safe drinking-water (JMP),4115
-urban_population_with_access_to_safe_drinking_water_jmp,measure,Urban population with access to safe drinking-water (JMP),4116
+area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater,measure,Area equipped for irrigation by direct use of treated municipal wastewater,4533
+area_equipped_for_irrigation_by_groundwater,measure,Area equipped for irrigation by groundwater,4320
+area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater,measure,Area equipped for irrigation by mixed surface water and groundwater,4322
+area_equipped_for_irrigation_by_surface_water,measure,Area equipped for irrigation by surface water,4321
+area_equipped_for_irrigation_drained,measure,Area equipped for irrigation drained,4303
+area_equipped_for_irrigation_equipped_lowland_areas,measure,Area equipped for irrigation: equipped lowland areas,4312
+area_equipped_for_irrigation_spate_irrigation,measure,Area equipped for irrigation: spate irrigation,4316
+area_equipped_for_irrigation_total,measure,Area equipped for irrigation: total,4313
+area_equipped_for_power_irrigation_surface_water_or_groundwater,measure,Area equipped for power irrigation (surface water or groundwater),4326
 area_salinized_by_irrigation,measure,Area salinized by irrigation,4400
-pct_of_area_equipped_for_irrigation_salinized,measure,% of area equipped for irrigation salinized,4445
-population_affected_by_water_related_disease,measure,Population affected by water related disease,4403
 area_waterlogged_by_irrigation,measure,Area waterlogged by irrigation,4401
+capacity_of_the_municipal_wastewater_treatment_facilities,measure,Capacity of the municipal wastewater treatment facilities,4516
+collected_municipal_wastewater,measure,Collected municipal wastewater,4493
 conservation_agriculture_area,measure,Conservation agriculture area,4454
 conservation_agriculture_area_as_pct_of_arable_land_area,measure,Conservation agriculture area as % of arable land area,4455
-total_area_of_the_country,measure,Total area of the country,4100
-arable_land_area,measure,Arable land area,4101
-permanent_crops_area,measure,Permanent crops area,4102
 cultivated_area_arable_land_permanent_crops,measure,Cultivated area (arable land + permanent crops),4103
-pct_of_total_country_area_cultivated,measure,% of total country area cultivated,4470
-long_term_average_annual_precipitation_in_depth,measure,Long-term average annual precipitation in depth,4151
-long_term_average_annual_precipitation_in_volume,measure,Long-term average annual precipitation in volume,4150
-national_rainfall_index_nri,measure,National Rainfall Index (NRI),4472
-surface_water_produced_internally,measure,Surface water produced internally,4155
-groundwater_produced_internally,measure,Groundwater produced internally,4154
-overlap_between_surface_water_and_groundwater,measure,Overlap between surface water and groundwater,4156
-total_internal_renewable_water_resources_irwr,measure,Total internal renewable water resources (IRWR),4157
-total_internal_renewable_water_resources_per_capita,measure,Total internal renewable water resources per capita,4158
-surface_water_entering_the_country_total,measure,Surface water: entering the country (total),4159
-surface_water_inflow_not_submitted_to_treaties,measure,Surface water: inflow not submitted to treaties,4160
-surface_water_inflow_submitted_to_treaties,measure,Surface water: inflow submitted to treaties,4161
-surface_water_inflow_secured_through_treaties,measure,Surface water: inflow secured through treaties,4162
-surface_water_total_flow_of_border_rivers,measure,Surface water: total flow of border rivers,4165
-surface_water_accounted_flow_of_border_rivers,measure,Surface water: accounted flow of border rivers,4168
-surface_water_accounted_inflow,measure,Surface water: accounted inflow,4164
-surface_water_leaving_the_country_to_other_countries_total,measure,Surface water: leaving the country to other countries (total),4171
-surface_water_outflow_to_other_countries_not_submitted_to_treaties,measure,Surface water: outflow to other countries not submitted to treaties,4172
-surface_water_outflow_to_other_countries_submitted_to_treaties,measure,Surface water: outflow to other countries submitted to treaties,4173
-surface_water_outflow_to_other_countries_secured_through_treaties,measure,Surface water: outflow to other countries secured through treaties,4174
-surface_water_total_external_renewable,measure,Surface water: total external renewable,4176
-groundwater_entering_the_country_total,measure,Groundwater: entering the country (total),4177
-groundwater_accounted_inflow,measure,Groundwater: accounted inflow,4452
-water_resources_total_external_renewable,measure,Water resources: total external renewable,4182
-total_renewable_surface_water,measure,Total renewable surface water,4185
-total_renewable_groundwater,measure,Total renewable groundwater,4187
-total_renewable_water_resources,measure,Total renewable water resources,4188
-dependency_ratio,measure,Dependency ratio,4192
-total_renewable_water_resources_per_capita,measure,Total renewable water resources per capita,4190
-interannual_variability_wri,measure,Interannual variability (WRI),4541
-seasonal_variability_wri,measure,Seasonal variability (WRI),4542
-total_dam_capacity,measure,Total dam capacity,4197
+cultivated_wetlands_and_inland_valley_bottoms_non_equipped,measure,Cultivated wetlands and inland valley bottoms non-equipped,4315
 dam_capacity_per_capita,measure,Dam capacity per capita,4471
-groundwater_leaving_the_country_to_other_countries_total,measure,Groundwater: leaving the country to other countries (total),4178
-groundwater_accounted_outflow_to_other_countries,measure,Groundwater: accounted outflow to other countries,4453
-exploitable_regular_renewable_surface_water,measure,Exploitable: regular renewable surface water,4193
-total_exploitable_water_resources,measure,Total exploitable water resources,4196
+dependency_ratio,measure,Dependency ratio,4192
+desalinated_water_produced,measure,Desalinated water produced,4264
+direct_use_of_agricultural_drainage_water,measure,Direct use of agricultural drainage water,4451
+direct_use_of_not_treated_municipal_wastewater_for_irrigation_purposes,measure,Direct use of not treated municipal wastewater for irrigation purposes,4512
+direct_use_of_treated_municipal_wastewater,measure,Direct use of treated municipal wastewater,4535
+direct_use_of_treated_municipal_wastewater_for_irrigation_purposes,measure,Direct use of treated municipal wastewater for irrigation purposes,4490
+environmental_flow_requirements,measure,Environmental Flow Requirements,4549
 exploitable_irregular_renewable_surface_water,measure,Exploitable: irregular renewable surface water,4194
-exploitable_total_renewable_surface_water,measure,Exploitable: total renewable surface water,4509
 exploitable_regular_renewable_groundwater,measure,Exploitable: regular renewable groundwater,4195
-gross_domestic_product_gdp,measure,Gross Domestic Product (GDP),4112
+exploitable_regular_renewable_surface_water,measure,Exploitable: regular renewable surface water,4193
+exploitable_total_renewable_surface_water,measure,Exploitable: total renewable surface water,4509
+flood_occurrence_wri,measure,Flood occurrence (WRI),4543
+flood_recession_cropping_area_non_equipped,measure,Flood recession cropping area non-equipped,4314
+fresh_groundwater_withdrawal_primary_and_secondary,measure,Fresh groundwater withdrawal (primary and secondary),4262
+fresh_surface_water_withdrawal_primary_and_secondary,measure,Fresh surface water withdrawal (primary and secondary),4261
 gdp_per_capita,measure,GDP per capita,4458
-agriculture_value_added_pct_gdp,measure,"Agriculture, value added (% GDP)",4113
-human_development_index_hdi_highest_1,measure,Human Development Index (HDI) [highest = 1],4111
 gender_inequality_index_gii_equality_0_inequality_1,measure,Gender Inequality Index (GII) [equality = 0; inequality = 1),4537
-prevalence_of_undernourishment_3_year_average,measure,Prevalence of undernourishment (3-year average),4474
-number_of_people_undernourished_3_year_average,measure,Number of people undernourished (3-year average),4473
-total_population,measure,Total population,4104
-rural_population,measure,Rural population,4105
-urban_population,measure,Urban population,4106
-population_density,measure,Population density,4107
-area_equipped_for_full_control_irrigation_sprinkler_irrigation,measure,Area equipped for full control irrigation: sprinkler irrigation,4309
-area_equipped_for_full_control_irrigation_total,measure,Area equipped for full control irrigation: total,4311
-area_equipped_for_full_control_irrigation_actually_irrigated,measure,Area equipped for full control irrigation: actually irrigated,4461
-pct_of_area_equipped_for_full_control_irrigation_actually_irrigated,measure,% of area equipped for full control irrigation actually irrigated,4463
-area_equipped_for_irrigation_total,measure,Area equipped for irrigation: total,4313
-area_equipped_for_irrigation_actually_irrigated,measure,Area equipped for irrigation: actually irrigated,4318
-pct_of_the_area_equipped_for_irrigation_actually_irrigated,measure,% of the area equipped for irrigation actually irrigated,4328
-pct_of_the_cultivated_area_equipped_for_irrigation,measure,% of the cultivated area equipped for irrigation,4331
-total_agricultural_water_managed_area,measure,Total agricultural water managed area,4317
-pct_of_agricultural_water_managed_area_equipped_for_irrigation,measure,% of agricultural water managed area equipped for irrigation,4319
-area_equipped_for_irrigation_by_surface_water,measure,Area equipped for irrigation by surface water,4321
-area_equipped_for_irrigation_by_groundwater,measure,Area equipped for irrigation by groundwater,4320
-pct_of_area_equipped_for_irrigation_by_surface_water,measure,% of area equipped for irrigation by surface water,4324
-pct_of_area_equipped_for_irrigation_by_groundwater,measure,% of area equipped for irrigation by groundwater,4323
-pct_of_area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater,measure,% of area equipped for irrigation by mixed surface water and groundwater,4325
-total_harvested_irrigated_crop_area_full_control_irrigation,measure,Total harvested irrigated crop area (full control irrigation),4379
-harvested_irrigated_temporary_crop_area_total,measure,Harvested irrigated temporary crop area: Total,4520
+gross_domestic_product_gdp,measure,Gross Domestic Product (GDP),4112
+groundwater_accounted_inflow,measure,Groundwater: accounted inflow,4452
+groundwater_accounted_outflow_to_other_countries,measure,Groundwater: accounted outflow to other countries,4453
+groundwater_entering_the_country_total,measure,Groundwater: entering the country (total),4177
+groundwater_leaving_the_country_to_other_countries_total,measure,Groundwater: leaving the country to other countries (total),4178
+groundwater_produced_internally,measure,Groundwater produced internally,4154
+harvested_irrigated_permanent_crop_area_bananas,measure,Harvested irrigated permanent crop area: Bananas,4361
+harvested_irrigated_permanent_crop_area_citrus,measure,Harvested irrigated permanent crop area: Citrus,4362
+harvested_irrigated_permanent_crop_area_cocoa_beans,measure,Harvested irrigated permanent crop area: Cocoa beans,4363
+harvested_irrigated_permanent_crop_area_coconuts,measure,Harvested irrigated permanent crop area: Coconuts,4375
+harvested_irrigated_permanent_crop_area_coffee,measure,Harvested irrigated permanent crop area: Coffee,4364
+harvested_irrigated_permanent_crop_area_grapes,measure,Harvested irrigated permanent crop area: Grapes,4523
+harvested_irrigated_permanent_crop_area_grass_and_fodder,measure,Harvested irrigated permanent crop area: Grass and Fodder,4522
+harvested_irrigated_permanent_crop_area_oil_palm,measure,Harvested irrigated permanent crop area: Oil palm,4370
+harvested_irrigated_permanent_crop_area_olives,measure,Harvested irrigated permanent crop area: Olives,4525
+harvested_irrigated_permanent_crop_area_other_crops,measure,Harvested irrigated permanent crop area: Other crops,4378
+harvested_irrigated_permanent_crop_area_other_fruits,measure,Harvested irrigated permanent crop area: Other fruits,4524
+harvested_irrigated_permanent_crop_area_plantains,measure,Harvested irrigated permanent crop area: Plantains,4356
+harvested_irrigated_permanent_crop_area_rubber,measure,Harvested irrigated permanent crop area: Rubber,4368
+harvested_irrigated_permanent_crop_area_tea,measure,Harvested irrigated permanent crop area: Tea,4365
 harvested_irrigated_permanent_crop_area_total,measure,Harvested irrigated permanent crop area: Total,4521
-irrigated_cropping_intensity,measure,Irrigated cropping intensity,4464
-harvested_irrigated_temporary_crop_area_wheat,measure,Harvested irrigated temporary crop area: Wheat,4345
-harvested_irrigated_temporary_crop_area_rice,measure,Harvested irrigated temporary crop area: Rice,4346
 harvested_irrigated_temporary_crop_area_barley,measure,Harvested irrigated temporary crop area: Barley,4347
-harvested_irrigated_temporary_crop_area_maize,measure,Harvested irrigated temporary crop area: Maize,4348
-harvested_irrigated_temporary_crop_area_vegetables,measure,Harvested irrigated temporary crop area: Vegetables,4360
-harvested_irrigated_temporary_crop_area_sesame,measure,Harvested irrigated temporary crop area: Sesame,4374
-harvested_irrigated_temporary_crop_area_sunflower,measure,Harvested irrigated temporary crop area: Sunflower,4373
-harvested_irrigated_temporary_crop_area_potatoes,measure,Harvested irrigated temporary crop area: Potatoes,4352
+harvested_irrigated_temporary_crop_area_cassava,measure,Harvested irrigated temporary crop area: Cassava,4354
+harvested_irrigated_temporary_crop_area_cotton,measure,Harvested irrigated temporary crop area: Cotton,4367
+harvested_irrigated_temporary_crop_area_flowers,measure,Harvested irrigated temporary crop area: Flowers,4376
+harvested_irrigated_temporary_crop_area_fodder,measure,Harvested irrigated temporary crop area: Fodder,4369
+harvested_irrigated_temporary_crop_area_groundnuts,measure,Harvested irrigated temporary crop area: Groundnuts,4372
 harvested_irrigated_temporary_crop_area_leguminous_crops,measure,Harvested irrigated temporary crop area: Leguminous crops,4359
+harvested_irrigated_temporary_crop_area_maize,measure,Harvested irrigated temporary crop area: Maize,4348
+harvested_irrigated_temporary_crop_area_millet,measure,Harvested irrigated temporary crop area: Millet,4349
+harvested_irrigated_temporary_crop_area_other_cereals,measure,Harvested irrigated temporary crop area: Other cereals,4351
+harvested_irrigated_temporary_crop_area_other_crops,measure,Harvested irrigated temporary crop area: Other crops,4377
+harvested_irrigated_temporary_crop_area_other_roots_and_tubers,measure,Harvested irrigated temporary crop area: Other roots and tubers,4355
+harvested_irrigated_temporary_crop_area_potatoes,measure,Harvested irrigated temporary crop area: Potatoes,4352
+harvested_irrigated_temporary_crop_area_rice,measure,Harvested irrigated temporary crop area: Rice,4346
+harvested_irrigated_temporary_crop_area_sesame,measure,Harvested irrigated temporary crop area: Sesame,4374
+harvested_irrigated_temporary_crop_area_sorghum,measure,Harvested irrigated temporary crop area: Sorghum,4350
+harvested_irrigated_temporary_crop_area_soybeans,measure,Harvested irrigated temporary crop area: Soybeans,4371
 harvested_irrigated_temporary_crop_area_sugar_beet,measure,Harvested irrigated temporary crop area: Sugar beet,4358
 harvested_irrigated_temporary_crop_area_sugarcane,measure,Harvested irrigated temporary crop area: Sugarcane,4357
-harvested_irrigated_temporary_crop_area_cotton,measure,Harvested irrigated temporary crop area: Cotton,4367
-harvested_irrigated_permanent_crop_area_other_crops,measure,Harvested irrigated permanent crop area: Other crops,4378
-area_equipped_for_full_control_irrigation_surface_irrigation,measure,Area equipped for full control irrigation: surface irrigation,4308
-area_equipped_for_power_irrigation_surface_water_or_groundwater,measure,Area equipped for power irrigation (surface water or groundwater),4326
-pct_of_area_equipped_for_irrigation_power_irrigated,measure,% of area equipped for irrigation power irrigated,4327
-harvested_irrigated_temporary_crop_area_other_cereals,measure,Harvested irrigated temporary crop area: Other cereals,4351
-harvested_irrigated_temporary_crop_area_fodder,measure,Harvested irrigated temporary crop area: Fodder,4369
-harvested_irrigated_temporary_crop_area_other_crops,measure,Harvested irrigated temporary crop area: Other crops,4377
-total_cultivated_area_drained,measure,Total cultivated area drained,4300
-pct_of_total_cultivated_area_drained,measure,% of total cultivated area drained,4305
-irrigation_potential,measure,Irrigation potential,4307
-area_equipped_for_full_control_irrigation_localized_irrigation,measure,Area equipped for full control irrigation: localized irrigation,4310
-area_equipped_for_irrigation_spate_irrigation,measure,Area equipped for irrigation: spate irrigation,4316
-pct_of_irrigation_potential_equipped_for_irrigation,measure,% of irrigation potential equipped for irrigation,4330
-area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater,measure,Area equipped for irrigation by mixed surface water and groundwater,4322
-pct_of_area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater,measure,% of area equipped for irrigation by direct use of  treated municipal wastewater,4466
-harvested_irrigated_temporary_crop_area_tobacco,measure,Harvested irrigated temporary crop area: Tobacco,4366
-harvested_irrigated_permanent_crop_area_citrus,measure,Harvested irrigated permanent crop area: Citrus,4362
-harvested_irrigated_permanent_crop_area_grapes,measure,Harvested irrigated permanent crop area: Grapes,4523
-harvested_irrigated_permanent_crop_area_other_fruits,measure,Harvested irrigated permanent crop area: Other fruits,4524
-harvested_irrigated_permanent_crop_area_olives,measure,Harvested irrigated permanent crop area: Olives,4525
-harvested_irrigated_permanent_crop_area_oil_palm,measure,Harvested irrigated permanent crop area: Oil palm,4370
-harvested_irrigated_permanent_crop_area_grass_and_fodder,measure,Harvested irrigated permanent crop area: Grass and Fodder,4522
-area_equipped_for_irrigation_drained,measure,Area equipped for irrigation drained,4303
-non_irrigated_cultivated_area_drained,measure,Non-irrigated cultivated area drained,4304
-pct_of_area_equipped_for_irrigation_drained,measure,% of area equipped for irrigation drained,4446
-cultivated_wetlands_and_inland_valley_bottoms_non_equipped,measure,Cultivated wetlands and inland valley bottoms non-equipped,4315
-harvested_irrigated_temporary_crop_area_groundnuts,measure,Harvested irrigated temporary crop area: Groundnuts,4372
+harvested_irrigated_temporary_crop_area_sunflower,measure,Harvested irrigated temporary crop area: Sunflower,4373
 harvested_irrigated_temporary_crop_area_sweet_potatoes,measure,Harvested irrigated temporary crop area: Sweet potatoes,4353
-harvested_irrigated_temporary_crop_area_cassava,measure,Harvested irrigated temporary crop area: Cassava,4354
-harvested_irrigated_permanent_crop_area_bananas,measure,Harvested irrigated permanent crop area: Bananas,4361
-harvested_irrigated_temporary_crop_area_sorghum,measure,Harvested irrigated temporary crop area: Sorghum,4350
-harvested_irrigated_temporary_crop_area_other_roots_and_tubers,measure,Harvested irrigated temporary crop area: Other roots and tubers,4355
-harvested_irrigated_temporary_crop_area_flowers,measure,Harvested irrigated temporary crop area: Flowers,4376
-pct_of_total_grain_production_irrigated,measure,% of total grain production irrigated,4329
-permanent_meadows_and_pastures_irrigated,measure,Permanent meadows and pastures irrigated,4469
-harvested_irrigated_temporary_crop_area_soybeans,measure,Harvested irrigated temporary crop area: Soybeans,4371
-pct_of_the_area_equipped_for_irrigation_managed_by_women,measure,% of the area equipped for irrigation managed by women,4544
-pct_of_the_agricultural_holdings_with_irrigation_managed_by_women,measure,% of the agricultural holdings with irrigation managed by women,4545
-harvested_irrigated_permanent_crop_area_tea,measure,Harvested irrigated permanent crop area: Tea,4365
-harvested_irrigated_temporary_crop_area_millet,measure,Harvested irrigated temporary crop area: Millet,4349
-area_equipped_for_irrigation_equipped_lowland_areas,measure,Area equipped for irrigation: equipped lowland areas,4312
-area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater,measure,Area equipped for irrigation by direct use of non-treated municipal wastewater,4513
+harvested_irrigated_temporary_crop_area_tobacco,measure,Harvested irrigated temporary crop area: Tobacco,4366
+harvested_irrigated_temporary_crop_area_total,measure,Harvested irrigated temporary crop area: Total,4520
+harvested_irrigated_temporary_crop_area_vegetables,measure,Harvested irrigated temporary crop area: Vegetables,4360
+harvested_irrigated_temporary_crop_area_wheat,measure,Harvested irrigated temporary crop area: Wheat,4345
+human_development_index_hdi_highest_1,measure,Human Development Index (HDI) [highest = 1],4111
+industrial_water_withdrawal,measure,Industrial water withdrawal,4252
+industrial_water_withdrawal_as_pct_of_total_water_withdrawal,measure,Industrial water withdrawal as % of total water withdrawal,4256
+interannual_variability_wri,measure,Interannual variability (WRI),4541
+irrigated_cropping_intensity,measure,Irrigated cropping intensity,4464
+irrigation_potential,measure,Irrigation potential,4307
+irrigation_water_requirement,measure,Irrigation water requirement,4260
+irrigation_water_withdrawal,measure,Irrigation water withdrawal,4475
+long_term_average_annual_precipitation_in_depth,measure,Long-term average annual precipitation in depth,4151
+long_term_average_annual_precipitation_in_volume,measure,Long-term average annual precipitation in volume,4150
+mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources,measure,MDG 7.5. Freshwater withdrawal as % of total renewable water resources,4275
+municipal_water_withdrawal,measure,Municipal water withdrawal,4251
+municipal_water_withdrawal_as_pct_of_total_withdrawal,measure,Municipal water withdrawal as % of total withdrawal,4255
+municipal_water_withdrawal_per_captia,measure,Municipal Water Withdrawal Per Captia,
+national_rainfall_index_nri,measure,National Rainfall Index (NRI),4472
+non_irrigated_cultivated_area_drained,measure,Non-irrigated cultivated area drained,4304
+not_treated_municipal_wastewater,measure,Not treated municipal wastewater,4491
+not_treated_municipal_wastewater_discharged_secondary_water,measure,Not treated municipal wastewater discharged (secondary water),4517
+number_of_municipal_wastewater_treatment_facilities,measure,Number of municipal wastewater treatment facilities,4515
+number_of_people_undernourished_3_year_average,measure,Number of people undernourished (3-year average),4473
+overlap_between_surface_water_and_groundwater,measure,Overlap between surface water and groundwater,4156
+pct_of_agricultural_water_managed_area_equipped_for_irrigation,measure,% of agricultural water managed area equipped for irrigation,4319
+pct_of_area_equipped_for_full_control_irrigation_actually_irrigated,measure,% of area equipped for full control irrigation actually irrigated,4463
 pct_of_area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater,measure,% of area equipped for irrigation by direct use of non-treated municipal wastewater,4514
-harvested_irrigated_permanent_crop_area_plantains,measure,Harvested irrigated permanent crop area: Plantains,4356
-harvested_irrigated_permanent_crop_area_coffee,measure,Harvested irrigated permanent crop area: Coffee,4364
-harvested_irrigated_permanent_crop_area_cocoa_beans,measure,Harvested irrigated permanent crop area: Cocoa beans,4363
-flood_recession_cropping_area_non_equipped,measure,Flood recession cropping area non-equipped,4314
-harvested_irrigated_permanent_crop_area_coconuts,measure,Harvested irrigated permanent crop area: Coconuts,4375
-harvested_irrigated_permanent_crop_area_rubber,measure,Harvested irrigated permanent crop area: Rubber,4368
+pct_of_area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater,measure,% of area equipped for irrigation by direct use of  treated municipal wastewater,4466
+pct_of_area_equipped_for_irrigation_by_groundwater,measure,% of area equipped for irrigation by groundwater,4323
+pct_of_area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater,measure,% of area equipped for irrigation by mixed surface water and groundwater,4325
+pct_of_area_equipped_for_irrigation_by_surface_water,measure,% of area equipped for irrigation by surface water,4324
+pct_of_area_equipped_for_irrigation_drained,measure,% of area equipped for irrigation drained,4446
+pct_of_area_equipped_for_irrigation_power_irrigated,measure,% of area equipped for irrigation power irrigated,4327
+pct_of_area_equipped_for_irrigation_salinized,measure,% of area equipped for irrigation salinized,4445
+pct_of_irrigation_potential_equipped_for_irrigation,measure,% of irrigation potential equipped for irrigation,4330
+pct_of_the_agricultural_holdings_with_irrigation_managed_by_women,measure,% of the agricultural holdings with irrigation managed by women,4545
+pct_of_the_area_equipped_for_irrigation_actually_irrigated,measure,% of the area equipped for irrigation actually irrigated,4328
+pct_of_the_area_equipped_for_irrigation_managed_by_women,measure,% of the area equipped for irrigation managed by women,4544
+pct_of_the_cultivated_area_equipped_for_irrigation,measure,% of the cultivated area equipped for irrigation,4331
+pct_of_total_country_area_cultivated,measure,% of total country area cultivated,4470
+pct_of_total_cultivated_area_drained,measure,% of total cultivated area drained,4305
+pct_of_total_grain_production_irrigated,measure,% of total grain production irrigated,4329
+permanent_crops_area,measure,Permanent crops area,4102
+permanent_meadows_and_pastures_irrigated,measure,Permanent meadows and pastures irrigated,4469
+population_affected_by_water_related_disease,measure,Population affected by water related disease,4403
+population_density,measure,Population density,4107
+prevalence_of_undernourishment_3_year_average,measure,Prevalence of undernourishment (3-year average),4474
+produced_municipal_wastewater,measure,Produced municipal wastewater,4269
+rural_population,measure,Rural population,4105
+rural_population_with_access_to_safe_drinking_water_jmp,measure,Rural population with access to safe drinking-water (JMP),4115
+sdg_6_4_2_water_stress,measure,SDG 6.4.2. Water Stress,4550
+seasonal_variability_wri,measure,Seasonal variability (WRI),4542
+surface_water_accounted_flow_of_border_rivers,measure,Surface water: accounted flow of border rivers,4168
+surface_water_accounted_inflow,measure,Surface water: accounted inflow,4164
+surface_water_entering_the_country_total,measure,Surface water: entering the country (total),4159
+surface_water_inflow_not_submitted_to_treaties,measure,Surface water: inflow not submitted to treaties,4160
+surface_water_inflow_secured_through_treaties,measure,Surface water: inflow secured through treaties,4162
+surface_water_inflow_submitted_to_treaties,measure,Surface water: inflow submitted to treaties,4161
+surface_water_leaving_the_country_to_other_countries_total,measure,Surface water: leaving the country to other countries (total),4171
+surface_water_outflow_to_other_countries_not_submitted_to_treaties,measure,Surface water: outflow to other countries not submitted to treaties,4172
+surface_water_outflow_to_other_countries_secured_through_treaties,measure,Surface water: outflow to other countries secured through treaties,4174
+surface_water_outflow_to_other_countries_submitted_to_treaties,measure,Surface water: outflow to other countries submitted to treaties,4173
+surface_water_produced_internally,measure,Surface water produced internally,4155
+surface_water_total_external_renewable,measure,Surface water: total external renewable,4176
+surface_water_total_flow_of_border_rivers,measure,Surface water: total flow of border rivers,4165
+total_agricultural_water_managed_area,measure,Total agricultural water managed area,4317
+total_area_of_the_country,measure,Total area of the country,4100
+total_cultivated_area_drained,measure,Total cultivated area drained,4300
+total_dam_capacity,measure,Total dam capacity,4197
+total_exploitable_water_resources,measure,Total exploitable water resources,4196
+total_freshwater_withdrawal_primary_and_secondary,measure,Total freshwater withdrawal (primary and secondary),4263
+total_harvested_irrigated_crop_area_full_control_irrigation,measure,Total harvested irrigated crop area (full control irrigation),4379
+total_internal_renewable_water_resources_irwr,measure,Total internal renewable water resources (IRWR),4157
+total_internal_renewable_water_resources_per_capita,measure,Total internal renewable water resources per capita,4158
+total_population,measure,Total population,4104
+total_population_with_access_to_safe_drinking_water_jmp,measure,Total population with access to safe drinking-water (JMP),4114
+total_renewable_groundwater,measure,Total renewable groundwater,4187
+total_renewable_surface_water,measure,Total renewable surface water,4185
+total_renewable_water_resources,measure,Total renewable water resources,4188
+total_renewable_water_resources_per_capita,measure,Total renewable water resources per capita,4190
+total_water_withdrawal,measure,Total water withdrawal,4253
+total_water_withdrawal_per_capita,measure,Total water withdrawal per capita,4257
+treated_municipal_wastewater,measure,Treated municipal wastewater,4270
+treated_municipal_wastewater_discharged_secondary_water,measure,Treated municipal wastewater discharged (secondary water),4510
+urban_population,measure,Urban population,4106
+urban_population_with_access_to_safe_drinking_water_jmp,measure,Urban population with access to safe drinking-water (JMP),4116
+water_resources_total_external_renewable,measure,Water resources: total external renewable,4182
