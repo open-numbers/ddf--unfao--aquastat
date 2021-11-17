@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2021-11-17T09:10:47.012289+00:00",
+    "created": "2021-11-17T04:02:36.154611+00:00",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -2056,27 +2056,6 @@
                     },
                     {
                         "name": "municipal_water_withdrawal_as_pct_of_total_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year",
-            "path": "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "municipal_water_withdrawal_per_captia"
                     }
                 ],
                 "primaryKey": [
@@ -4690,16 +4669,6 @@
                 "value": "municipal_water_withdrawal_as_pct_of_total_withdrawal",
                 "resources": [
                     "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "municipal_water_withdrawal_per_captia",
-                "resources": [
-                    "ddf--datapoints--municipal_water_withdrawal_per_captia--by--area--year"
                 ]
             },
             {
