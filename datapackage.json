@@ -3,11 +3,15 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-05-09T06:13:31.576082+00:00",
+    "title": "ddf--unfao--aquastat",
+    "description": "",
+    "author": "",
+    "license": "",
+    "created": "2021-11-17T04:02:36.154611+00:00",
     "resources": [
         {
-            "path": "ddf--concepts--continuous.csv",
             "name": "ddf--concepts--continuous",
+            "path": "ddf--concepts--continuous.csv",
             "schema": {
                 "fields": [
                     {
@@ -27,8 +31,8 @@
             }
         },
         {
-            "path": "ddf--concepts--discrete.csv",
             "name": "ddf--concepts--discrete",
+            "path": "ddf--concepts--discrete.csv",
             "schema": {
                 "fields": [
                     {
@@ -45,29 +49,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--agricultural_water_withdrawal--by--area--year.csv",
-            "name": "ddf--datapoints--agricultural_water_withdrawal--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "agricultural_water_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
             "name": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year",
+            "path": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -87,8 +70,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year.csv",
             "name": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -108,8 +91,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--agriculture_value_added_pct_gdp--by--area--year.csv",
             "name": "ddf--datapoints--agriculture_value_added_pct_gdp--by--area--year",
+            "path": "ddf--datapoints--agriculture_value_added_pct_gdp--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -129,8 +112,29 @@
             }
         },
         {
-            "path": "ddf--datapoints--arable_land_area--by--area--year.csv",
+            "name": "ddf--datapoints--agriculture_value_added_to_gdp--by--area--year",
+            "path": "ddf--datapoints--agriculture_value_added_to_gdp--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "agriculture_value_added_to_gdp"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--arable_land_area--by--area--year",
+            "path": "ddf--datapoints--arable_land_area--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -150,8 +154,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -171,8 +175,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_localized_irrigation--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_localized_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_localized_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -192,8 +196,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_sprinkler_irrigation--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_sprinkler_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_sprinkler_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -213,8 +217,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year",
+            "name": "ddf--datapoints--area_equipped_for_irrigation_by_desalinated_water--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_desalinated_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -224,7 +228,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "area_equipped_for_full_control_irrigation_surface_irrigation"
+                        "name": "area_equipped_for_irrigation_by_desalinated_water"
                     }
                 ],
                 "primaryKey": [
@@ -234,8 +238,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year",
+            "name": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -245,7 +249,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "area_equipped_for_full_control_irrigation_total"
+                        "name": "area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water"
                     }
                 ],
                 "primaryKey": [
@@ -255,29 +259,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "area_equipped_for_irrigation_actually_irrigated"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -297,8 +280,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_not_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_not_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_not_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -318,8 +301,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -339,8 +322,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_groundwater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -360,8 +343,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -381,8 +364,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_by_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_by_surface_water--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_by_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -402,8 +385,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_drained--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_irrigation_drained--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_drained--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -423,71 +406,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "area_equipped_for_irrigation_equipped_lowland_areas"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "area_equipped_for_irrigation_spate_irrigation"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year.csv",
-            "name": "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "area_equipped_for_irrigation_total"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -507,8 +427,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_salinized_by_irrigation--by--area--year.csv",
             "name": "ddf--datapoints--area_salinized_by_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_salinized_by_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -528,8 +448,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--area_waterlogged_by_irrigation--by--area--year.csv",
             "name": "ddf--datapoints--area_waterlogged_by_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_waterlogged_by_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -549,8 +469,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--capacity_of_the_municipal_wastewater_treatment_facilities--by--area--year.csv",
             "name": "ddf--datapoints--capacity_of_the_municipal_wastewater_treatment_facilities--by--area--year",
+            "path": "ddf--datapoints--capacity_of_the_municipal_wastewater_treatment_facilities--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -570,8 +490,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--collected_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--collected_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--collected_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -591,50 +511,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--conservation_agriculture_area--by--area--year.csv",
-            "name": "ddf--datapoints--conservation_agriculture_area--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "conservation_agriculture_area"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--conservation_agriculture_area_as_pct_of_arable_land_area--by--area--year.csv",
-            "name": "ddf--datapoints--conservation_agriculture_area_as_pct_of_arable_land_area--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "conservation_agriculture_area_as_pct_of_arable_land_area"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--cultivated_area_arable_land_permanent_crops--by--area--year.csv",
             "name": "ddf--datapoints--cultivated_area_arable_land_permanent_crops--by--area--year",
+            "path": "ddf--datapoints--cultivated_area_arable_land_permanent_crops--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -654,29 +532,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year.csv",
-            "name": "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "cultivated_wetlands_and_inland_valley_bottoms_non_equipped"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--dam_capacity_per_capita--by--area--year.csv",
             "name": "ddf--datapoints--dam_capacity_per_capita--by--area--year",
+            "path": "ddf--datapoints--dam_capacity_per_capita--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -696,8 +553,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--dependency_ratio--by--area--year.csv",
             "name": "ddf--datapoints--dependency_ratio--by--area--year",
+            "path": "ddf--datapoints--dependency_ratio--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -717,29 +574,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--desalinated_water_produced--by--area--year.csv",
-            "name": "ddf--datapoints--desalinated_water_produced--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "desalinated_water_produced"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--direct_use_of_agricultural_drainage_water--by--area--year.csv",
             "name": "ddf--datapoints--direct_use_of_agricultural_drainage_water--by--area--year",
+            "path": "ddf--datapoints--direct_use_of_agricultural_drainage_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -759,8 +595,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--direct_use_of_not_treated_municipal_wastewater_for_irrigation_purposes--by--area--year.csv",
             "name": "ddf--datapoints--direct_use_of_not_treated_municipal_wastewater_for_irrigation_purposes--by--area--year",
+            "path": "ddf--datapoints--direct_use_of_not_treated_municipal_wastewater_for_irrigation_purposes--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -780,8 +616,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--direct_use_of_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -801,8 +637,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--direct_use_of_treated_municipal_wastewater_for_irrigation_purposes--by--area--year.csv",
             "name": "ddf--datapoints--direct_use_of_treated_municipal_wastewater_for_irrigation_purposes--by--area--year",
+            "path": "ddf--datapoints--direct_use_of_treated_municipal_wastewater_for_irrigation_purposes--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -822,8 +658,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--environmental_flow_requirements--by--area--year.csv",
             "name": "ddf--datapoints--environmental_flow_requirements--by--area--year",
+            "path": "ddf--datapoints--environmental_flow_requirements--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -843,8 +679,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--exploitable_irregular_renewable_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--exploitable_irregular_renewable_surface_water--by--area--year",
+            "path": "ddf--datapoints--exploitable_irregular_renewable_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -864,8 +700,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--exploitable_regular_renewable_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--exploitable_regular_renewable_groundwater--by--area--year",
+            "path": "ddf--datapoints--exploitable_regular_renewable_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -885,8 +721,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--exploitable_regular_renewable_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--exploitable_regular_renewable_surface_water--by--area--year",
+            "path": "ddf--datapoints--exploitable_regular_renewable_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -906,8 +742,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--exploitable_total_renewable_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--exploitable_total_renewable_surface_water--by--area--year",
+            "path": "ddf--datapoints--exploitable_total_renewable_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -927,8 +763,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--flood_occurrence_wri--by--area--year.csv",
             "name": "ddf--datapoints--flood_occurrence_wri--by--area--year",
+            "path": "ddf--datapoints--flood_occurrence_wri--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -948,8 +784,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year.csv",
-            "name": "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year",
+            "name": "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year",
+            "path": "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -959,7 +795,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "flood_recession_cropping_area_non_equipped"
+                        "name": "fresh_groundwater_withdrawal"
                     }
                 ],
                 "primaryKey": [
@@ -969,8 +805,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--fresh_groundwater_withdrawal_primary_and_secondary--by--area--year.csv",
-            "name": "ddf--datapoints--fresh_groundwater_withdrawal_primary_and_secondary--by--area--year",
+            "name": "ddf--datapoints--gdp_deflator_2015--by--area--year",
+            "path": "ddf--datapoints--gdp_deflator_2015--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -980,7 +816,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "fresh_groundwater_withdrawal_primary_and_secondary"
+                        "name": "gdp_deflator_2015"
                     }
                 ],
                 "primaryKey": [
@@ -990,29 +826,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--fresh_surface_water_withdrawal_primary_and_secondary--by--area--year.csv",
-            "name": "ddf--datapoints--fresh_surface_water_withdrawal_primary_and_secondary--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "fresh_surface_water_withdrawal_primary_and_secondary"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--gdp_per_capita--by--area--year.csv",
             "name": "ddf--datapoints--gdp_per_capita--by--area--year",
+            "path": "ddf--datapoints--gdp_per_capita--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1032,8 +847,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--gender_inequality_index_gii_equality_0_inequality_1--by--area--year.csv",
             "name": "ddf--datapoints--gender_inequality_index_gii_equality_0_inequality_1--by--area--year",
+            "path": "ddf--datapoints--gender_inequality_index_gii_equality_0_inequality_1--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1053,8 +868,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--gross_domestic_product_gdp--by--area--year.csv",
             "name": "ddf--datapoints--gross_domestic_product_gdp--by--area--year",
+            "path": "ddf--datapoints--gross_domestic_product_gdp--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1074,8 +889,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--groundwater_accounted_inflow--by--area--year.csv",
             "name": "ddf--datapoints--groundwater_accounted_inflow--by--area--year",
+            "path": "ddf--datapoints--groundwater_accounted_inflow--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1095,8 +910,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--groundwater_accounted_outflow_to_other_countries--by--area--year.csv",
             "name": "ddf--datapoints--groundwater_accounted_outflow_to_other_countries--by--area--year",
+            "path": "ddf--datapoints--groundwater_accounted_outflow_to_other_countries--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1116,8 +931,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--groundwater_entering_the_country_total--by--area--year.csv",
             "name": "ddf--datapoints--groundwater_entering_the_country_total--by--area--year",
+            "path": "ddf--datapoints--groundwater_entering_the_country_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1137,8 +952,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--groundwater_leaving_the_country_to_other_countries_total--by--area--year.csv",
             "name": "ddf--datapoints--groundwater_leaving_the_country_to_other_countries_total--by--area--year",
+            "path": "ddf--datapoints--groundwater_leaving_the_country_to_other_countries_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1158,8 +973,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--groundwater_produced_internally--by--area--year.csv",
             "name": "ddf--datapoints--groundwater_produced_internally--by--area--year",
+            "path": "ddf--datapoints--groundwater_produced_internally--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1179,8 +994,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_bananas--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_bananas--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_bananas--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1200,8 +1015,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_citrus--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_citrus--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_citrus--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1221,8 +1036,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_cocoa_beans--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_cocoa_beans--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_cocoa_beans--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1242,8 +1057,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coconuts--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coconuts--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coconuts--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1263,8 +1078,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coffee--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coffee--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_coffee--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1284,8 +1099,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grapes--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grapes--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grapes--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1305,8 +1120,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grass_and_fodder--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grass_and_fodder--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_grass_and_fodder--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1326,8 +1141,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_oil_palm--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_oil_palm--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_oil_palm--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1347,8 +1162,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_olives--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_olives--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_olives--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1368,8 +1183,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_crops--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_crops--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_crops--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1389,8 +1204,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_fruits--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_fruits--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_other_fruits--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1410,8 +1225,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_plantains--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_plantains--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_plantains--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1431,8 +1246,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_rubber--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_rubber--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_rubber--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1452,8 +1267,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_tea--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_tea--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_tea--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1473,8 +1288,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_total--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_permanent_crop_area_total--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_permanent_crop_area_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1494,8 +1309,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_barley--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_barley--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_barley--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1515,8 +1330,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cassava--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cassava--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cassava--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1536,8 +1351,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cotton--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cotton--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_cotton--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1557,8 +1372,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_flowers--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_flowers--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_flowers--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1578,8 +1393,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_fodder--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_fodder--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_fodder--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1599,8 +1414,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_groundnuts--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_groundnuts--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_groundnuts--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1620,8 +1435,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_leguminous_crops--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_leguminous_crops--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_leguminous_crops--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1641,8 +1456,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_maize--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_maize--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_maize--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1662,8 +1477,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_millet--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_millet--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_millet--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1683,8 +1498,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_cereals--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_cereals--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_cereals--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1704,8 +1519,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_crops--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_crops--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_crops--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1725,8 +1540,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_roots_and_tubers--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_roots_and_tubers--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_other_roots_and_tubers--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1746,8 +1561,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_potatoes--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_potatoes--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_potatoes--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1767,8 +1582,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_rice--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_rice--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_rice--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1788,8 +1603,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sesame--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sesame--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sesame--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1809,8 +1624,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sorghum--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sorghum--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sorghum--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1830,8 +1645,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_soybeans--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_soybeans--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_soybeans--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1851,8 +1666,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugar_beet--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugar_beet--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugar_beet--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1872,8 +1687,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugarcane--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugarcane--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sugarcane--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1893,8 +1708,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sunflower--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sunflower--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sunflower--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1914,8 +1729,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sweet_potatoes--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sweet_potatoes--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_sweet_potatoes--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1935,8 +1750,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_tobacco--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_tobacco--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_tobacco--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1956,8 +1771,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_total--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_total--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1977,8 +1792,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_vegetables--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_vegetables--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_vegetables--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1998,8 +1813,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_wheat--by--area--year.csv",
             "name": "ddf--datapoints--harvested_irrigated_temporary_crop_area_wheat--by--area--year",
+            "path": "ddf--datapoints--harvested_irrigated_temporary_crop_area_wheat--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2019,8 +1834,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year.csv",
             "name": "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year",
+            "path": "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2040,29 +1855,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--industrial_water_withdrawal--by--area--year.csv",
-            "name": "ddf--datapoints--industrial_water_withdrawal--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "industrial_water_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year.csv",
             "name": "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2082,8 +1876,29 @@
             }
         },
         {
-            "path": "ddf--datapoints--interannual_variability_wri--by--area--year.csv",
+            "name": "ddf--datapoints--industry_value_added_to_gdp--by--area--year",
+            "path": "ddf--datapoints--industry_value_added_to_gdp--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "industry_value_added_to_gdp"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--interannual_variability_wri--by--area--year",
+            "path": "ddf--datapoints--interannual_variability_wri--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2103,8 +1918,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--irrigated_cropping_intensity--by--area--year.csv",
             "name": "ddf--datapoints--irrigated_cropping_intensity--by--area--year",
+            "path": "ddf--datapoints--irrigated_cropping_intensity--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2124,8 +1939,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--irrigation_potential--by--area--year.csv",
             "name": "ddf--datapoints--irrigation_potential--by--area--year",
+            "path": "ddf--datapoints--irrigation_potential--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2145,8 +1960,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--irrigation_water_requirement--by--area--year.csv",
             "name": "ddf--datapoints--irrigation_water_requirement--by--area--year",
+            "path": "ddf--datapoints--irrigation_water_requirement--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2166,29 +1981,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--irrigation_water_withdrawal--by--area--year.csv",
-            "name": "ddf--datapoints--irrigation_water_withdrawal--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "irrigation_water_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year.csv",
             "name": "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year",
+            "path": "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2208,8 +2002,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--long_term_average_annual_precipitation_in_volume--by--area--year.csv",
             "name": "ddf--datapoints--long_term_average_annual_precipitation_in_volume--by--area--year",
+            "path": "ddf--datapoints--long_term_average_annual_precipitation_in_volume--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2229,8 +2023,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
             "name": "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year",
+            "path": "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2250,29 +2044,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--municipal_water_withdrawal--by--area--year.csv",
-            "name": "ddf--datapoints--municipal_water_withdrawal--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "municipal_water_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year.csv",
             "name": "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year",
+            "path": "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2292,29 +2065,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year.csv",
-            "name": "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "municipal_water_withdrawal_per_capita"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--national_rainfall_index_nri--by--area--year.csv",
             "name": "ddf--datapoints--national_rainfall_index_nri--by--area--year",
+            "path": "ddf--datapoints--national_rainfall_index_nri--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2334,8 +2086,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--non_irrigated_cultivated_area_drained--by--area--year.csv",
             "name": "ddf--datapoints--non_irrigated_cultivated_area_drained--by--area--year",
+            "path": "ddf--datapoints--non_irrigated_cultivated_area_drained--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2355,8 +2107,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--not_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--not_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--not_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2376,8 +2128,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--not_treated_municipal_wastewater_discharged_secondary_water--by--area--year.csv",
             "name": "ddf--datapoints--not_treated_municipal_wastewater_discharged_secondary_water--by--area--year",
+            "path": "ddf--datapoints--not_treated_municipal_wastewater_discharged_secondary_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2397,8 +2149,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--number_of_municipal_wastewater_treatment_facilities--by--area--year.csv",
             "name": "ddf--datapoints--number_of_municipal_wastewater_treatment_facilities--by--area--year",
+            "path": "ddf--datapoints--number_of_municipal_wastewater_treatment_facilities--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2418,8 +2170,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--number_of_people_undernourished_3_year_average--by--area--year.csv",
             "name": "ddf--datapoints--number_of_people_undernourished_3_year_average--by--area--year",
+            "path": "ddf--datapoints--number_of_people_undernourished_3_year_average--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2439,8 +2191,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--overlap_between_surface_water_and_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--overlap_between_surface_water_and_groundwater--by--area--year",
+            "path": "ddf--datapoints--overlap_between_surface_water_and_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2460,8 +2212,29 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_agricultural_water_managed_area_equipped_for_irrigation--by--area--year.csv",
+            "name": "ddf--datapoints--pct_of_agricultural_gva_produced_by_irrigated_agriculture--by--area--year",
+            "path": "ddf--datapoints--pct_of_agricultural_gva_produced_by_irrigated_agriculture--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pct_of_agricultural_gva_produced_by_irrigated_agriculture"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--pct_of_agricultural_water_managed_area_equipped_for_irrigation--by--area--year",
+            "path": "ddf--datapoints--pct_of_agricultural_water_managed_area_equipped_for_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2481,8 +2254,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2502,8 +2275,50 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year.csv",
+            "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_desalinated_water--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_desalinated_water--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pct_of_area_equipped_for_irrigation_by_desalinated_water"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pct_of_area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_non_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2523,8 +2338,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_treated_municipal_wastewater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2544,8 +2359,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_groundwater--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2565,8 +2380,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_mixed_surface_water_and_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2586,8 +2401,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_surface_water--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2607,8 +2422,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_drained--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_drained--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_drained--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2628,8 +2443,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_power_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_power_irrigated--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_power_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2649,8 +2464,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_salinized--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_area_equipped_for_irrigation_salinized--by--area--year",
+            "path": "ddf--datapoints--pct_of_area_equipped_for_irrigation_salinized--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2670,8 +2485,29 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year.csv",
+            "name": "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year",
+            "path": "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pct_of_cultivated_land_irrigated_harvested_crop"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year",
+            "path": "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2691,8 +2527,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_the_agricultural_holdings_with_irrigation_managed_by_women--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_the_agricultural_holdings_with_irrigation_managed_by_women--by--area--year",
+            "path": "ddf--datapoints--pct_of_the_agricultural_holdings_with_irrigation_managed_by_women--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2712,8 +2548,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_actually_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_actually_irrigated--by--area--year",
+            "path": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_actually_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2733,8 +2569,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_managed_by_women--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_managed_by_women--by--area--year",
+            "path": "ddf--datapoints--pct_of_the_area_equipped_for_irrigation_managed_by_women--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2754,8 +2590,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_the_cultivated_area_equipped_for_irrigation--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_the_cultivated_area_equipped_for_irrigation--by--area--year",
+            "path": "ddf--datapoints--pct_of_the_cultivated_area_equipped_for_irrigation--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2775,8 +2611,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_total_country_area_cultivated--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_total_country_area_cultivated--by--area--year",
+            "path": "ddf--datapoints--pct_of_total_country_area_cultivated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2796,8 +2632,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_total_cultivated_area_drained--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_total_cultivated_area_drained--by--area--year",
+            "path": "ddf--datapoints--pct_of_total_cultivated_area_drained--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2817,8 +2653,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--pct_of_total_grain_production_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--pct_of_total_grain_production_irrigated--by--area--year",
+            "path": "ddf--datapoints--pct_of_total_grain_production_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2838,8 +2674,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--permanent_crops_area--by--area--year.csv",
             "name": "ddf--datapoints--permanent_crops_area--by--area--year",
+            "path": "ddf--datapoints--permanent_crops_area--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2859,8 +2695,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--permanent_meadows_and_pastures_irrigated--by--area--year.csv",
             "name": "ddf--datapoints--permanent_meadows_and_pastures_irrigated--by--area--year",
+            "path": "ddf--datapoints--permanent_meadows_and_pastures_irrigated--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2880,8 +2716,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--population_affected_by_water_related_disease--by--area--year.csv",
             "name": "ddf--datapoints--population_affected_by_water_related_disease--by--area--year",
+            "path": "ddf--datapoints--population_affected_by_water_related_disease--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2901,8 +2737,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--population_density--by--area--year.csv",
             "name": "ddf--datapoints--population_density--by--area--year",
+            "path": "ddf--datapoints--population_density--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2922,8 +2758,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--prevalence_of_undernourishment_3_year_average--by--area--year.csv",
             "name": "ddf--datapoints--prevalence_of_undernourishment_3_year_average--by--area--year",
+            "path": "ddf--datapoints--prevalence_of_undernourishment_3_year_average--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2943,8 +2779,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--produced_municipal_wastewater--by--area--year.csv",
-            "name": "ddf--datapoints--produced_municipal_wastewater--by--area--year",
+            "name": "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year",
+            "path": "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2954,7 +2790,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "produced_municipal_wastewater"
+                        "name": "ratio_between_rainfed_and_irrigated_yields"
                     }
                 ],
                 "primaryKey": [
@@ -2964,8 +2800,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--rural_population--by--area--year.csv",
             "name": "ddf--datapoints--rural_population--by--area--year",
+            "path": "ddf--datapoints--rural_population--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2985,8 +2821,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--rural_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "name": "ddf--datapoints--rural_population_with_access_to_safe_drinking_water_jmp--by--area--year",
+            "path": "ddf--datapoints--rural_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3006,8 +2842,92 @@
             }
         },
         {
-            "path": "ddf--datapoints--sdg_6_4_2_water_stress--by--area--year.csv",
+            "name": "ddf--datapoints--sdg_6_4_1_industrial_water_use_efficiency--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_1_industrial_water_use_efficiency--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_1_industrial_water_use_efficiency"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_1_irrigated_agriculture_water_use_efficiency--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_1_irrigated_agriculture_water_use_efficiency--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_1_irrigated_agriculture_water_use_efficiency"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_1_services_water_use_efficiency--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_1_services_water_use_efficiency--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_1_services_water_use_efficiency"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_1_water_use_efficiency--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_1_water_use_efficiency--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_1_water_use_efficiency"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--sdg_6_4_2_water_stress--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_2_water_stress--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3027,8 +2947,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--seasonal_variability_wri--by--area--year.csv",
             "name": "ddf--datapoints--seasonal_variability_wri--by--area--year",
+            "path": "ddf--datapoints--seasonal_variability_wri--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3048,8 +2968,29 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_accounted_flow_of_border_rivers--by--area--year.csv",
+            "name": "ddf--datapoints--services_value_added_to_gdp--by--area--year",
+            "path": "ddf--datapoints--services_value_added_to_gdp--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "services_value_added_to_gdp"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--surface_water_accounted_flow_of_border_rivers--by--area--year",
+            "path": "ddf--datapoints--surface_water_accounted_flow_of_border_rivers--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3069,8 +3010,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_accounted_inflow--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_accounted_inflow--by--area--year",
+            "path": "ddf--datapoints--surface_water_accounted_inflow--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3090,8 +3031,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_entering_the_country_total--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_entering_the_country_total--by--area--year",
+            "path": "ddf--datapoints--surface_water_entering_the_country_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3111,8 +3052,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_inflow_not_submitted_to_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_inflow_not_submitted_to_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_inflow_not_submitted_to_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3132,8 +3073,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_inflow_secured_through_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_inflow_secured_through_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_inflow_secured_through_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3153,8 +3094,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_inflow_submitted_to_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_inflow_submitted_to_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_inflow_submitted_to_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3174,8 +3115,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_leaving_the_country_to_other_countries_total--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_leaving_the_country_to_other_countries_total--by--area--year",
+            "path": "ddf--datapoints--surface_water_leaving_the_country_to_other_countries_total--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3195,8 +3136,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_not_submitted_to_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_outflow_to_other_countries_not_submitted_to_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_not_submitted_to_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3216,8 +3157,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_secured_through_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_outflow_to_other_countries_secured_through_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_secured_through_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3237,8 +3178,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_submitted_to_treaties--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_outflow_to_other_countries_submitted_to_treaties--by--area--year",
+            "path": "ddf--datapoints--surface_water_outflow_to_other_countries_submitted_to_treaties--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3258,8 +3199,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_produced_internally--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_produced_internally--by--area--year",
+            "path": "ddf--datapoints--surface_water_produced_internally--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3279,8 +3220,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_total_external_renewable--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_total_external_renewable--by--area--year",
+            "path": "ddf--datapoints--surface_water_total_external_renewable--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3300,8 +3241,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--surface_water_total_flow_of_border_rivers--by--area--year.csv",
             "name": "ddf--datapoints--surface_water_total_flow_of_border_rivers--by--area--year",
+            "path": "ddf--datapoints--surface_water_total_flow_of_border_rivers--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3321,8 +3262,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_agricultural_water_managed_area--by--area--year.csv",
-            "name": "ddf--datapoints--total_agricultural_water_managed_area--by--area--year",
+            "name": "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year",
+            "path": "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3332,7 +3273,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "total_agricultural_water_managed_area"
+                        "name": "total_area_of_the_country_excl_coastal_water"
                     }
                 ],
                 "primaryKey": [
@@ -3342,29 +3283,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_area_of_the_country--by--area--year.csv",
-            "name": "ddf--datapoints--total_area_of_the_country--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_area_of_the_country"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_cultivated_area_drained--by--area--year.csv",
             "name": "ddf--datapoints--total_cultivated_area_drained--by--area--year",
+            "path": "ddf--datapoints--total_cultivated_area_drained--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3384,8 +3304,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_dam_capacity--by--area--year.csv",
             "name": "ddf--datapoints--total_dam_capacity--by--area--year",
+            "path": "ddf--datapoints--total_dam_capacity--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3405,8 +3325,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_exploitable_water_resources--by--area--year.csv",
             "name": "ddf--datapoints--total_exploitable_water_resources--by--area--year",
+            "path": "ddf--datapoints--total_exploitable_water_resources--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3426,8 +3346,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_freshwater_withdrawal_primary_and_secondary--by--area--year.csv",
-            "name": "ddf--datapoints--total_freshwater_withdrawal_primary_and_secondary--by--area--year",
+            "name": "ddf--datapoints--total_freshwater_withdrawal--by--area--year",
+            "path": "ddf--datapoints--total_freshwater_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3437,7 +3357,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "total_freshwater_withdrawal_primary_and_secondary"
+                        "name": "total_freshwater_withdrawal"
                     }
                 ],
                 "primaryKey": [
@@ -3447,29 +3367,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year.csv",
-            "name": "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_harvested_irrigated_crop_area_full_control_irrigation"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_internal_renewable_water_resources_irwr--by--area--year.csv",
             "name": "ddf--datapoints--total_internal_renewable_water_resources_irwr--by--area--year",
+            "path": "ddf--datapoints--total_internal_renewable_water_resources_irwr--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3489,8 +3388,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_internal_renewable_water_resources_per_capita--by--area--year.csv",
             "name": "ddf--datapoints--total_internal_renewable_water_resources_per_capita--by--area--year",
+            "path": "ddf--datapoints--total_internal_renewable_water_resources_per_capita--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3510,8 +3409,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_population--by--area--year.csv",
             "name": "ddf--datapoints--total_population--by--area--year",
+            "path": "ddf--datapoints--total_population--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3531,8 +3430,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "name": "ddf--datapoints--total_population_with_access_to_safe_drinking_water_jmp--by--area--year",
+            "path": "ddf--datapoints--total_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3552,8 +3451,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_renewable_groundwater--by--area--year.csv",
             "name": "ddf--datapoints--total_renewable_groundwater--by--area--year",
+            "path": "ddf--datapoints--total_renewable_groundwater--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3573,8 +3472,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_renewable_surface_water--by--area--year.csv",
             "name": "ddf--datapoints--total_renewable_surface_water--by--area--year",
+            "path": "ddf--datapoints--total_renewable_surface_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3594,8 +3493,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_renewable_water_resources--by--area--year.csv",
             "name": "ddf--datapoints--total_renewable_water_resources--by--area--year",
+            "path": "ddf--datapoints--total_renewable_water_resources--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3615,8 +3514,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_renewable_water_resources_per_capita--by--area--year.csv",
             "name": "ddf--datapoints--total_renewable_water_resources_per_capita--by--area--year",
+            "path": "ddf--datapoints--total_renewable_water_resources_per_capita--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3636,29 +3535,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--total_water_withdrawal--by--area--year.csv",
-            "name": "ddf--datapoints--total_water_withdrawal--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "total_water_withdrawal"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year.csv",
             "name": "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year",
+            "path": "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3678,29 +3556,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--treated_municipal_wastewater--by--area--year.csv",
-            "name": "ddf--datapoints--treated_municipal_wastewater--by--area--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "treated_municipal_wastewater"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--treated_municipal_wastewater_discharged_secondary_water--by--area--year.csv",
             "name": "ddf--datapoints--treated_municipal_wastewater_discharged_secondary_water--by--area--year",
+            "path": "ddf--datapoints--treated_municipal_wastewater_discharged_secondary_water--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3720,8 +3577,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--urban_population--by--area--year.csv",
             "name": "ddf--datapoints--urban_population--by--area--year",
+            "path": "ddf--datapoints--urban_population--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3741,8 +3598,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--urban_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "name": "ddf--datapoints--urban_population_with_access_to_safe_drinking_water_jmp--by--area--year",
+            "path": "ddf--datapoints--urban_population_with_access_to_safe_drinking_water_jmp--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3762,8 +3619,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--water_resources_total_external_renewable--by--area--year.csv",
             "name": "ddf--datapoints--water_resources_total_external_renewable--by--area--year",
+            "path": "ddf--datapoints--water_resources_total_external_renewable--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -3783,8 +3640,8 @@
             }
         },
         {
-            "path": "ddf--entities--area.csv",
             "name": "ddf--entities--area",
+            "path": "ddf--entities--area.csv",
             "schema": {
                 "fields": [
                     {
@@ -3859,16 +3716,6 @@
                     "area",
                     "year"
                 ],
-                "value": "agricultural_water_withdrawal",
-                "resources": [
-                    "ddf--datapoints--agricultural_water_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources",
                 "resources": [
                     "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year"
@@ -3892,6 +3739,16 @@
                 "value": "agriculture_value_added_pct_gdp",
                 "resources": [
                     "ddf--datapoints--agriculture_value_added_pct_gdp--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "agriculture_value_added_to_gdp",
+                "resources": [
+                    "ddf--datapoints--agriculture_value_added_to_gdp--by--area--year"
                 ]
             },
             {
@@ -3939,9 +3796,9 @@
                     "area",
                     "year"
                 ],
-                "value": "area_equipped_for_full_control_irrigation_surface_irrigation",
+                "value": "area_equipped_for_irrigation_by_desalinated_water",
                 "resources": [
-                    "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year"
+                    "ddf--datapoints--area_equipped_for_irrigation_by_desalinated_water--by--area--year"
                 ]
             },
             {
@@ -3949,19 +3806,9 @@
                     "area",
                     "year"
                 ],
-                "value": "area_equipped_for_full_control_irrigation_total",
+                "value": "area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water",
                 "resources": [
-                    "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "area_equipped_for_irrigation_actually_irrigated",
-                "resources": [
-                    "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year"
+                    "ddf--datapoints--area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year"
                 ]
             },
             {
@@ -4039,36 +3886,6 @@
                     "area",
                     "year"
                 ],
-                "value": "area_equipped_for_irrigation_equipped_lowland_areas",
-                "resources": [
-                    "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "area_equipped_for_irrigation_spate_irrigation",
-                "resources": [
-                    "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "area_equipped_for_irrigation_total",
-                "resources": [
-                    "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "area_equipped_for_power_irrigation_surface_water_or_groundwater",
                 "resources": [
                     "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year"
@@ -4119,39 +3936,9 @@
                     "area",
                     "year"
                 ],
-                "value": "conservation_agriculture_area",
-                "resources": [
-                    "ddf--datapoints--conservation_agriculture_area--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "conservation_agriculture_area_as_pct_of_arable_land_area",
-                "resources": [
-                    "ddf--datapoints--conservation_agriculture_area_as_pct_of_arable_land_area--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "cultivated_area_arable_land_permanent_crops",
                 "resources": [
                     "ddf--datapoints--cultivated_area_arable_land_permanent_crops--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "cultivated_wetlands_and_inland_valley_bottoms_non_equipped",
-                "resources": [
-                    "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year"
                 ]
             },
             {
@@ -4172,16 +3959,6 @@
                 "value": "dependency_ratio",
                 "resources": [
                     "ddf--datapoints--dependency_ratio--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "desalinated_water_produced",
-                "resources": [
-                    "ddf--datapoints--desalinated_water_produced--by--area--year"
                 ]
             },
             {
@@ -4289,9 +4066,9 @@
                     "area",
                     "year"
                 ],
-                "value": "flood_recession_cropping_area_non_equipped",
+                "value": "fresh_groundwater_withdrawal",
                 "resources": [
-                    "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year"
+                    "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year"
                 ]
             },
             {
@@ -4299,19 +4076,9 @@
                     "area",
                     "year"
                 ],
-                "value": "fresh_groundwater_withdrawal_primary_and_secondary",
+                "value": "gdp_deflator_2015",
                 "resources": [
-                    "ddf--datapoints--fresh_groundwater_withdrawal_primary_and_secondary--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "fresh_surface_water_withdrawal_primary_and_secondary",
-                "resources": [
-                    "ddf--datapoints--fresh_surface_water_withdrawal_primary_and_secondary--by--area--year"
+                    "ddf--datapoints--gdp_deflator_2015--by--area--year"
                 ]
             },
             {
@@ -4809,9 +4576,9 @@
                     "area",
                     "year"
                 ],
-                "value": "industrial_water_withdrawal",
+                "value": "industrial_water_withdrawal_as_pct_of_total_water_withdrawal",
                 "resources": [
-                    "ddf--datapoints--industrial_water_withdrawal--by--area--year"
+                    "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year"
                 ]
             },
             {
@@ -4819,9 +4586,9 @@
                     "area",
                     "year"
                 ],
-                "value": "industrial_water_withdrawal_as_pct_of_total_water_withdrawal",
+                "value": "industry_value_added_to_gdp",
                 "resources": [
-                    "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year"
+                    "ddf--datapoints--industry_value_added_to_gdp--by--area--year"
                 ]
             },
             {
@@ -4869,16 +4636,6 @@
                     "area",
                     "year"
                 ],
-                "value": "irrigation_water_withdrawal",
-                "resources": [
-                    "ddf--datapoints--irrigation_water_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "long_term_average_annual_precipitation_in_depth",
                 "resources": [
                     "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year"
@@ -4909,29 +4666,9 @@
                     "area",
                     "year"
                 ],
-                "value": "municipal_water_withdrawal",
-                "resources": [
-                    "ddf--datapoints--municipal_water_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "municipal_water_withdrawal_as_pct_of_total_withdrawal",
                 "resources": [
                     "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "municipal_water_withdrawal_per_capita",
-                "resources": [
-                    "ddf--datapoints--municipal_water_withdrawal_per_capita--by--area--year"
                 ]
             },
             {
@@ -5009,6 +4746,16 @@
                     "area",
                     "year"
                 ],
+                "value": "pct_of_agricultural_gva_produced_by_irrigated_agriculture",
+                "resources": [
+                    "ddf--datapoints--pct_of_agricultural_gva_produced_by_irrigated_agriculture--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "pct_of_agricultural_water_managed_area_equipped_for_irrigation",
                 "resources": [
                     "ddf--datapoints--pct_of_agricultural_water_managed_area_equipped_for_irrigation--by--area--year"
@@ -5022,6 +4769,26 @@
                 "value": "pct_of_area_equipped_for_full_control_irrigation_actually_irrigated",
                 "resources": [
                     "ddf--datapoints--pct_of_area_equipped_for_full_control_irrigation_actually_irrigated--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "pct_of_area_equipped_for_irrigation_by_desalinated_water",
+                "resources": [
+                    "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_desalinated_water--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "pct_of_area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water",
+                "resources": [
+                    "ddf--datapoints--pct_of_area_equipped_for_irrigation_by_direct_use_of_agricultural_drainage_water--by--area--year"
                 ]
             },
             {
@@ -5102,6 +4869,16 @@
                 "value": "pct_of_area_equipped_for_irrigation_salinized",
                 "resources": [
                     "ddf--datapoints--pct_of_area_equipped_for_irrigation_salinized--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "pct_of_cultivated_land_irrigated_harvested_crop",
+                "resources": [
+                    "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year"
                 ]
             },
             {
@@ -5239,9 +5016,9 @@
                     "area",
                     "year"
                 ],
-                "value": "produced_municipal_wastewater",
+                "value": "ratio_between_rainfed_and_irrigated_yields",
                 "resources": [
-                    "ddf--datapoints--produced_municipal_wastewater--by--area--year"
+                    "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year"
                 ]
             },
             {
@@ -5269,6 +5046,46 @@
                     "area",
                     "year"
                 ],
+                "value": "sdg_6_4_1_industrial_water_use_efficiency",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_1_industrial_water_use_efficiency--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_1_irrigated_agriculture_water_use_efficiency",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_1_irrigated_agriculture_water_use_efficiency--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_1_services_water_use_efficiency",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_1_services_water_use_efficiency--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_1_water_use_efficiency",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_1_water_use_efficiency--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "sdg_6_4_2_water_stress",
                 "resources": [
                     "ddf--datapoints--sdg_6_4_2_water_stress--by--area--year"
@@ -5282,6 +5099,16 @@
                 "value": "seasonal_variability_wri",
                 "resources": [
                     "ddf--datapoints--seasonal_variability_wri--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "services_value_added_to_gdp",
+                "resources": [
+                    "ddf--datapoints--services_value_added_to_gdp--by--area--year"
                 ]
             },
             {
@@ -5419,19 +5246,9 @@
                     "area",
                     "year"
                 ],
-                "value": "total_agricultural_water_managed_area",
+                "value": "total_area_of_the_country_excl_coastal_water",
                 "resources": [
-                    "ddf--datapoints--total_agricultural_water_managed_area--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "total_area_of_the_country",
-                "resources": [
-                    "ddf--datapoints--total_area_of_the_country--by--area--year"
+                    "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year"
                 ]
             },
             {
@@ -5469,19 +5286,9 @@
                     "area",
                     "year"
                 ],
-                "value": "total_freshwater_withdrawal_primary_and_secondary",
+                "value": "total_freshwater_withdrawal",
                 "resources": [
-                    "ddf--datapoints--total_freshwater_withdrawal_primary_and_secondary--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "total_harvested_irrigated_crop_area_full_control_irrigation",
-                "resources": [
-                    "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year"
+                    "ddf--datapoints--total_freshwater_withdrawal--by--area--year"
                 ]
             },
             {
@@ -5569,29 +5376,9 @@
                     "area",
                     "year"
                 ],
-                "value": "total_water_withdrawal",
-                "resources": [
-                    "ddf--datapoints--total_water_withdrawal--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "total_water_withdrawal_per_capita",
                 "resources": [
                     "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
-                "value": "treated_municipal_wastewater",
-                "resources": [
-                    "ddf--datapoints--treated_municipal_wastewater--by--area--year"
                 ]
             },
             {
@@ -5634,6 +5421,7 @@
                     "ddf--datapoints--water_resources_total_external_renewable--by--area--year"
                 ]
             }
-        ]
+        ],
+        "synonyms": []
     }
 }
