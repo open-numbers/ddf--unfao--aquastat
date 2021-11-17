@@ -1,0 +1,22 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"GIN|Guinea",324,"Harvested irrigated permanent crop area: Rubber",4368,2002,1.0,"I","","0"
+"GIN|Guinea",324,"Harvested irrigated permanent crop area: Rubber",4368,2007,1.0,"I","","0"
+"GIN|Guinea",324,"Harvested irrigated permanent crop area: Rubber",4368,2012,1.0,"I","","0"
+"GIN|Guinea",324,"Harvested irrigated permanent crop area: Rubber",4368,2017,1.0,"I","","0"
+"GIN|Guinea",324,"Harvested irrigated permanent crop area: Rubber",4368,2018,1.0,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Rubber",4368,2007,253.7,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Rubber",4368,2012,253.7,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Rubber",4368,2017,253.7,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Rubber",4368,2018,253.7,"I","","0"
+""
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[16/11/2021 3:55]
+ 

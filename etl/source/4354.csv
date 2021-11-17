@@ -1,0 +1,48 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"AGO|Angola",24,"Harvested irrigated temporary crop area: Cassava",4354,2007,0.322,"I","","0"
+"AGO|Angola",24,"Harvested irrigated temporary crop area: Cassava",4354,2012,0.322,"I","","0"
+"AGO|Angola",24,"Harvested irrigated temporary crop area: Cassava",4354,2017,0.322,"I","","0"
+"AGO|Angola",24,"Harvested irrigated temporary crop area: Cassava",4354,2018,0.322,"I","","0"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated temporary crop area: Cassava",4354,2012,0.883,"I","","0"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated temporary crop area: Cassava",4354,2017,0.883,"I","","0"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated temporary crop area: Cassava",4354,2018,0.883,"I","","0"
+"SLV|El Salvador",222,"Harvested irrigated temporary crop area: Cassava",4354,2012,0.14,"E","","6395"
+"SLV|El Salvador",222,"Harvested irrigated temporary crop area: Cassava",4354,2017,0.14,"I","","0"
+"SLV|El Salvador",222,"Harvested irrigated temporary crop area: Cassava",4354,2018,0.14,"I","","0"
+"HND|Honduras",340,"Harvested irrigated temporary crop area: Cassava",4354,2012,1.931,"I","","0"
+"HND|Honduras",340,"Harvested irrigated temporary crop area: Cassava",4354,2017,1.931,"I","","0"
+"HND|Honduras",340,"Harvested irrigated temporary crop area: Cassava",4354,2018,1.931,"I","","0"
+"NER|Niger",562,"Harvested irrigated temporary crop area: Cassava",4354,2012,0.146,"I","","0"
+"NER|Niger",562,"Harvested irrigated temporary crop area: Cassava",4354,2017,0.146,"I","","0"
+"NER|Niger",562,"Harvested irrigated temporary crop area: Cassava",4354,2018,0.146,"I","","0"
+"OMN|Oman",512,"Harvested irrigated temporary crop area: Cassava",4354,2007,1.0E-4,"I","","0"
+"OMN|Oman",512,"Harvested irrigated temporary crop area: Cassava",4354,2012,1.0E-4,"I","","0"
+"OMN|Oman",512,"Harvested irrigated temporary crop area: Cassava",4354,2017,1.0E-4,"I","","0"
+"OMN|Oman",512,"Harvested irrigated temporary crop area: Cassava",4354,2018,1.0E-4,"I","","0"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,1997,0.06,"","[1]","5201"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,2002,0.06,"I","","0"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,2007,0.06,"I","","0"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,2012,0.06,"I","","0"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,2017,0.06,"I","","0"
+"SEN|Senegal",686,"Harvested irrigated temporary crop area: Cassava",4354,2018,0.06,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated temporary crop area: Cassava",4354,2012,5.277,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated temporary crop area: Cassava",4354,2017,5.277,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated temporary crop area: Cassava",4354,2018,5.277,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated temporary crop area: Cassava",4354,2007,167.9,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated temporary crop area: Cassava",4354,2012,167.9,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated temporary crop area: Cassava",4354,2017,167.9,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated temporary crop area: Cassava",4354,2018,167.9,"I","","0"
+""
+"Metadata:"
+"[1] [P-Comparability (over time)-N] | 1996/1997"
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[16/11/2021 3:47]
+ 

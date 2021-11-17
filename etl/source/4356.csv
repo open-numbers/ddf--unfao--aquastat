@@ -1,0 +1,45 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated permanent crop area: Plantains",4356,2012,1.245,"I","","0"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated permanent crop area: Plantains",4356,2017,1.245,"I","","0"
+"BOL|Bolivia (Plurinational State of)",68,"Harvested irrigated permanent crop area: Plantains",4356,2018,1.245,"I","","0"
+"COL|Colombia",170,"Harvested irrigated permanent crop area: Plantains",4356,2012,1.6,"I","","0"
+"COL|Colombia",170,"Harvested irrigated permanent crop area: Plantains",4356,2017,1.6,"I","","0"
+"COL|Colombia",170,"Harvested irrigated permanent crop area: Plantains",4356,2018,1.6,"I","","0"
+"CRI|Costa Rica",188,"Harvested irrigated permanent crop area: Plantains",4356,2017,0.001,"I","","0"
+"CRI|Costa Rica",188,"Harvested irrigated permanent crop area: Plantains",4356,2018,0.001,"I","","0"
+"CUB|Cuba",192,"Harvested irrigated permanent crop area: Plantains",4356,2012,6.6,"E","","6557"
+"CUB|Cuba",192,"Harvested irrigated permanent crop area: Plantains",4356,2017,6.6,"I","","0"
+"CUB|Cuba",192,"Harvested irrigated permanent crop area: Plantains",4356,2018,6.6,"I","","0"
+"DOM|Dominican Republic",214,"Harvested irrigated permanent crop area: Plantains",4356,2007,23.74,"I","","0"
+"DOM|Dominican Republic",214,"Harvested irrigated permanent crop area: Plantains",4356,2012,23.74,"I","","0"
+"DOM|Dominican Republic",214,"Harvested irrigated permanent crop area: Plantains",4356,2017,23.74,"I","","0"
+"DOM|Dominican Republic",214,"Harvested irrigated permanent crop area: Plantains",4356,2018,23.74,"I","","0"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Plantains",4356,2012,0.37,"E","","6395"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Plantains",4356,2017,0.37,"I","","0"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Plantains",4356,2018,0.37,"I","","0"
+"HND|Honduras",340,"Harvested irrigated permanent crop area: Plantains",4356,2007,6.64,"I","","0"
+"HND|Honduras",340,"Harvested irrigated permanent crop area: Plantains",4356,2012,13.2,"I","","0"
+"HND|Honduras",340,"Harvested irrigated permanent crop area: Plantains",4356,2017,13.2,"I","","0"
+"HND|Honduras",340,"Harvested irrigated permanent crop area: Plantains",4356,2018,13.2,"I","","0"
+"NIC|Nicaragua",558,"Harvested irrigated permanent crop area: Plantains",4356,2012,20.34,"I","","0"
+"NIC|Nicaragua",558,"Harvested irrigated permanent crop area: Plantains",4356,2017,20.34,"I","","0"
+"NIC|Nicaragua",558,"Harvested irrigated permanent crop area: Plantains",4356,2018,20.34,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Plantains",4356,2007,0.0,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Plantains",4356,2012,0.0,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Plantains",4356,2017,0.0,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Plantains",4356,2018,0.0,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Plantains",4356,2012,14.6,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Plantains",4356,2017,14.6,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Plantains",4356,2018,14.6,"I","","0"
+""
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[16/11/2021 3:48]
+ 

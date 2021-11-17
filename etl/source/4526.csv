@@ -1,0 +1,16 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"GEO|Georgia",268,"Area equipped for irrigation by direct use of agricultural drainage water",4526,2018,0.0,"","","7078"
+"TUN|Tunisia",788,"Area equipped for irrigation by direct use of agricultural drainage water",4526,2017,5.0,"","","7223"
+"TUN|Tunisia",788,"Area equipped for irrigation by direct use of agricultural drainage water",4526,2018,5.0,"","","7223"
+""
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[16/11/2021 3:40]
+ 
