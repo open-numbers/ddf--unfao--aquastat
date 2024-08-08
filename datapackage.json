@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2021-11-17T04:02:36.154611+00:00",
+    "created": "2024-08-08T07:58:34.305054+00:00",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -27,7 +27,9 @@
                         "name": "variable_id"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -45,7 +47,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -3654,7 +3658,9 @@
                         "name": "area_id"
                     }
                 ],
-                "primaryKey": "area"
+                "primaryKey": [
+                    "area"
+                ]
             }
         }
     ],
