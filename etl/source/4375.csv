@@ -1,0 +1,27 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Coconuts",4375,2012,0.116,"E","","6395"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Coconuts",4375,2017,0.116,"I","","0"
+"SLV|El Salvador",222,"Harvested irrigated permanent crop area: Coconuts",4375,2018,0.116,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Coconuts",4375,2007,0.4492,"","","5706"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Coconuts",4375,2012,0.4492,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Coconuts",4375,2017,0.4492,"I","","0"
+"OMN|Oman",512,"Harvested irrigated permanent crop area: Coconuts",4375,2018,0.4492,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Coconuts",4375,2012,5.775,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Coconuts",4375,2017,5.775,"I","","0"
+"VEN|Venezuela (Bolivarian Republic of)",862,"Harvested irrigated permanent crop area: Coconuts",4375,2018,5.775,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Coconuts",4375,2007,25.04,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Coconuts",4375,2012,25.04,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Coconuts",4375,2017,25.04,"I","","0"
+"VNM|Viet Nam",704,"Harvested irrigated permanent crop area: Coconuts",4375,2018,25.04,"I","","0"
+""
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[12/11/2021 8:10]
+ 

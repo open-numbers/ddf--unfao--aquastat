@@ -8,7 +8,7 @@ from ddf_utils.str import to_concept_id, format_float_sigfig
 
 
 # configuration of file path
-source_dir = '../source'
+source_dir = '../source/new'
 out_dir = '../../'
 
 

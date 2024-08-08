@@ -1,201 +1,201 @@
 area,name,area_id
-argentina,Argentina,9
-australia,Australia,10
-azerbaijan,Azerbaijan,52
-belgium,Belgium,255
-bolivia_plurinational_state_of,Bolivia (Plurinational State of),19
-brazil,Brazil,21
-canada,Canada,33
-chile,Chile,40
-china,China,351
-colombia,Colombia,44
-democratic_people_s_republic_of_korea,Democratic People's Republic of Korea,116
-finland,Finland,67
-france,France,68
-germany,Germany,79
-ghana,Ghana,81
-greece,Greece,84
-hungary,Hungary,97
-india,India,100
-iraq,Iraq,103
-ireland,Ireland,104
-italy,Italy,106
-kazakhstan,Kazakhstan,108
-kenya,Kenya,114
-kyrgyzstan,Kyrgyzstan,113
-lebanon,Lebanon,121
-lesotho,Lesotho,122
-madagascar,Madagascar,129
-malawi,Malawi,130
-mexico,Mexico,138
-morocco,Morocco,143
-mozambique,Mozambique,144
-namibia,Namibia,147
-netherlands,Netherlands,150
-new_zealand,New Zealand,156
-paraguay,Paraguay,169
-portugal,Portugal,174
-republic_of_moldova,Republic of Moldova,146
-russian_federation,Russian Federation,185
-slovakia,Slovakia,199
-south_africa,South Africa,202
-spain,Spain,203
-switzerland,Switzerland,211
-syrian_arab_republic,Syrian Arab Republic,212
-tunisia,Tunisia,222
-turkey,Turkey,223
-ukraine,Ukraine,230
-united_kingdom,United Kingdom,229
-united_republic_of_tanzania,United Republic of Tanzania,215
-united_states_of_america,United States of America,231
-uruguay,Uruguay,234
-uzbekistan,Uzbekistan,235
-venezuela_bolivarian_republic_of,Venezuela (Bolivarian Republic of),236
-zambia,Zambia,251
-zimbabwe,Zimbabwe,181
-afghanistan,Afghanistan,2
-albania,Albania,3
-algeria,Algeria,4
-andorra,Andorra,6
-angola,Angola,7
-antigua_and_barbuda,Antigua and Barbuda,8
-armenia,Armenia,1
-austria,Austria,11
-bahamas,Bahamas,12
-bahrain,Bahrain,13
-bangladesh,Bangladesh,16
-barbados,Barbados,14
-belarus,Belarus,57
-belize,Belize,23
-benin,Benin,53
-bhutan,Bhutan,18
-bosnia_and_herzegovina,Bosnia and Herzegovina,80
-botswana,Botswana,20
-brunei_darussalam,Brunei Darussalam,26
-bulgaria,Bulgaria,27
-burkina_faso,Burkina Faso,233
-burundi,Burundi,29
-cabo_verde,Cabo Verde,35
-cambodia,Cambodia,115
-cameroon,Cameroon,32
-central_african_republic,Central African Republic,37
-chad,Chad,39
-comoros,Comoros,45
-congo,Congo,46
-costa_rica,Costa Rica,48
-cote_d_ivoire,Côte d'Ivoire,107
-croatia,Croatia,98
-cuba,Cuba,49
-cyprus,Cyprus,50
-czechia,Czechia,167
-democratic_republic_of_the_congo,Democratic Republic of the Congo,250
-denmark,Denmark,54
-djibouti,Djibouti,72
-dominica,Dominica,55
-dominican_republic,Dominican Republic,56
-ecuador,Ecuador,58
-egypt,Egypt,59
-el_salvador,El Salvador,60
-equatorial_guinea,Equatorial Guinea,61
-eritrea,Eritrea,178
-estonia,Estonia,63
-ethiopia,Ethiopia,238
-faroe_islands,Faroe Islands,64
-fiji,Fiji,66
-gabon,Gabon,74
-gambia,Gambia,75
-georgia,Georgia,73
-grenada,Grenada,86
-guatemala,Guatemala,89
-guinea,Guinea,90
-guinea_bissau,Guinea-Bissau,175
-guyana,Guyana,91
-haiti,Haiti,93
-honduras,Honduras,95
-iceland,Iceland,99
-indonesia,Indonesia,101
-iran_islamic_republic_of,Iran (Islamic Republic of),102
-israel,Israel,105
-jamaica,Jamaica,109
-japan,Japan,110
-jordan,Jordan,112
-kiribati,Kiribati,83
-kuwait,Kuwait,118
-lao_people_s_democratic_republic,Lao People's Democratic Republic,120
-latvia,Latvia,119
-liberia,Liberia,123
-libya,Libya,124
-liechtenstein,Liechtenstein,125
-lithuania,Lithuania,126
-luxembourg,Luxembourg,256
-malaysia,Malaysia,131
-maldives,Maldives,132
-mali,Mali,133
-malta,Malta,134
-marshall_islands,Marshall Islands,127
-mauritania,Mauritania,136
-mauritius,Mauritius,137
-micronesia_federated_states_of,Micronesia (Federated States of),145
-monaco,Monaco,140
-mongolia,Mongolia,141
-montenegro,Montenegro,273
-myanmar,Myanmar,28
-nepal,Nepal,149
-nicaragua,Nicaragua,157
-niger,Niger,158
-nigeria,Nigeria,159
-norway,Norway,162
-occupied_palestinian_territory,Occupied Palestinian Territory,299
-oman,Oman,221
-pakistan,Pakistan,165
-palau,Palau,180
-panama,Panama,166
-papua_new_guinea,Papua New Guinea,168
-peru,Peru,170
-philippines,Philippines,171
-poland,Poland,173
-puerto_rico,Puerto Rico,177
-qatar,Qatar,179
-republic_of_korea,Republic of Korea,117
-romania,Romania,183
-rwanda,Rwanda,184
-saint_kitts_and_nevis,Saint Kitts and Nevis,188
-saint_lucia,Saint Lucia,189
-saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines,191
-samoa,Samoa,244
-san_marino,San Marino,192
-sao_tome_and_principe,Sao Tome and Principe,193
-saudi_arabia,Saudi Arabia,194
-senegal,Senegal,195
-serbia,Serbia,272
-seychelles,Seychelles,196
-sierra_leone,Sierra Leone,197
-singapore,Singapore,200
-slovenia,Slovenia,198
-solomon_islands,Solomon Islands,25
-somalia,Somalia,201
-south_sudan,South Sudan,277
-sri_lanka,Sri Lanka,38
-sudan,Sudan,276
-suriname,Suriname,207
-swaziland,Swaziland,209
-sweden,Sweden,210
-tajikistan,Tajikistan,208
-thailand,Thailand,216
-the_former_yugoslav_republic_of_macedonia,The former Yugoslav Republic of Macedonia,154
-timor_leste,Timor-Leste,176
-togo,Togo,217
-tonga,Tonga,219
-trinidad_and_tobago,Trinidad and Tobago,220
-turkmenistan,Turkmenistan,213
-tuvalu,Tuvalu,227
-uganda,Uganda,226
-united_arab_emirates,United Arab Emirates,225
-vanuatu,Vanuatu,155
-viet_nam,Viet Nam,237
-yemen,Yemen,249
-cook_islands,Cook Islands,47
-holy_see,Holy See,94
-nauru,Nauru,148
-niue,Niue,160
-tokelau,Tokelau,218
+afg,Afghanistan,4
+arg,Argentina,32
+aus,Australia,36
+aze,Azerbaijan,31
+bgd,Bangladesh,50
+blz,Belize,84
+ben,Benin,204
+btn,Bhutan,64
+bol,Bolivia (Plurinational State of),68
+bra,Brazil,76
+brn,Brunei Darussalam,96
+bgr,Bulgaria,100
+bfa,Burkina Faso,854
+bdi,Burundi,108
+khm,Cambodia,116
+cmr,Cameroon,120
+caf,Central African Republic,140
+tcd,Chad,148
+chl,Chile,152
+chn,China,156
+col,Colombia,170
+cri,Costa Rica,188
+civ,Côte d'Ivoire,384
+cub,Cuba,192
+prk,Democratic People's Republic of Korea,408
+cod,Democratic Republic of the Congo,180
+dom,Dominican Republic,214
+ecu,Ecuador,218
+egy,Egypt,818
+slv,El Salvador,222
+swz,Eswatini,748
+gab,Gabon,266
+gmb,Gambia,270
+gha,Ghana,288
+grc,Greece,300
+gtm,Guatemala,320
+gin,Guinea,324
+gnb,Guinea-Bissau,624
+guy,Guyana,328
+hti,Haiti,332
+hnd,Honduras,340
+ind,India,356
+idn,Indonesia,360
+irn,Iran (Islamic Republic of),364
+irq,Iraq,368
+ita,Italy,380
+jpn,Japan,392
+kaz,Kazakhstan,398
+ken,Kenya,404
+kgz,Kyrgyzstan,417
+lao,Lao People's Democratic Republic,418
+mdg,Madagascar,450
+mwi,Malawi,454
+mys,Malaysia,458
+mli,Mali,466
+mrt,Mauritania,478
+mex,Mexico,484
+mar,Morocco,504
+moz,Mozambique,508
+mmr,Myanmar,104
+npl,Nepal,524
+nic,Nicaragua,558
+ner,Niger,562
+nga,Nigeria,566
+pak,Pakistan,586
+pan,Panama,591
+pry,Paraguay,600
+per,Peru,604
+phl,Philippines,608
+prt,Portugal,620
+pri,Puerto Rico,630
+kor,Republic of Korea,410
+rus,Russian Federation,643
+rwa,Rwanda,646
+sen,Senegal,686
+som,Somalia,706
+zaf,South Africa,710
+esp,Spain,724
+lka,Sri Lanka,144
+sur,Suriname,740
+tjk,Tajikistan,762
+tha,Thailand,764
+tls,Timor-Leste,626
+tgo,Togo,768
+tur,Turkey,792
+tkm,Turkmenistan,795
+uga,Uganda,800
+ukr,Ukraine,804
+tza,United Republic of Tanzania,834
+usa,United States of America,840
+ury,Uruguay,858
+uzb,Uzbekistan,860
+ven,Venezuela (Bolivarian Republic of),862
+vnm,Viet Nam,704
+zmb,Zambia,894
+jor,Jordan,400
+sau,Saudi Arabia,682
+sdn,Sudan,729
+syr,Syrian Arab Republic,760
+alb,Albania,8
+dza,Algeria,12
+atg,Antigua and Barbuda,28
+arm,Armenia,51
+aut,Austria,40
+bhr,Bahrain,48
+blr,Belarus,112
+bel,Belgium,56
+bih,Bosnia and Herzegovina,70
+bwa,Botswana,72
+can,Canada,124
+cog,Congo,178
+hrv,Croatia,191
+cyp,Cyprus,196
+cze,Czechia,203
+dnk,Denmark,208
+dji,Djibouti,262
+dma,Dominica,212
+est,Estonia,233
+fin,Finland,246
+fra,France,250
+geo,Georgia,268
+deu,Germany,276
+grd,Grenade,308
+hun,Hungary,348
+isl,Iceland,352
+irl,Ireland,372
+isr,Israel,376
+jam,Jamaica,388
+kwt,Kuwait,414
+lva,Latvia,428
+lbn,Lebanon,422
+lby,Libya,434
+ltu,Lithuania,440
+lux,Luxembourg,442
+mlt,Malta,470
+mus,Mauritius,480
+mng,Mongolia,496
+nam,Namibia,516
+nld,Netherlands,528
+nzl,New Zealand,554
+mkd,North Macedonia,807
+omn,Oman,512
+pse,Palestine,275
+pol,Poland,616
+qat,Qatar,634
+mda,Republic of Moldova,498
+rou,Romania,642
+kna,Saint Kitts and Nevis,659
+vct,Saint Vincent and the Grenadines,670
+srb,Serbia,688
+syc,Seychelles,690
+svk,Slovakia,703
+svn,Slovenia,705
+swe,Sweden,752
+che,Switzerland,756
+tto,Trinidad and Tobago,780
+tun,Tunisia,788
+are,United Arab Emirates,784
+gbr,United Kingdom,826
+yem,Yemen,887
+zwe,Zimbabwe,716
+ago,Angola,24
+bhs,Bahamas,44
+brb,Barbados,52
+cpv,Cabo Verde,132
+com,Comoros,174
+cok,Cook Islands,184
+gnq,Equatorial Guinea,226
+eri,Eritrea,232
+eth,Ethiopia,231
+fro,Faroe Islands,234
+fji,Fiji,242
+kir,Kiribati,296
+lso,Lesotho,426
+lbr,Liberia,430
+mdv,Maldives,462
+mhl,Marshall Islands,584
+fsm,Micronesia (Federated States of),583
+nru,Nauru,520
+niu,Niue,570
+nor,Norway,578
+plw,Palau,585
+png,Papua New Guinea,598
+lca,Saint Lucia,662
+wsm,Samoa,882
+stp,Sao Tome and Principe,678
+sle,Sierra Leone,694
+sgp,Singapore,702
+slb,Solomon Islands,90
+ssd,South Sudan,728
+tkl,Tokelau,772
+ton,Tonga,776
+tuv,Tuvalu,798
+vut,Vanuatu,548
+and,Andorra,20
+vat,Holy See,336
+lie,Liechtenstein,438
+mco,Monaco,492
+mne,Montenegro,499
+smr,San Marino,674

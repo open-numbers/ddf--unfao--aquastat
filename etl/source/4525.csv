@@ -1,0 +1,52 @@
+﻿
+
+"Area","Area Id","Variable Name","Variable Id","Year","Value","Symbol","Md"
+"DZA|Algeria",12,"Harvested irrigated permanent crop area: Olives",4525,2012,48.32,"I","","0"
+"DZA|Algeria",12,"Harvested irrigated permanent crop area: Olives",4525,2017,48.32,"I","","0"
+"DZA|Algeria",12,"Harvested irrigated permanent crop area: Olives",4525,2018,48.32,"I","","0"
+"HRV|Croatia",191,"Harvested irrigated permanent crop area: Olives",4525,2012,1.54,"I","","0"
+"HRV|Croatia",191,"Harvested irrigated permanent crop area: Olives",4525,2017,1.54,"I","","0"
+"HRV|Croatia",191,"Harvested irrigated permanent crop area: Olives",4525,2018,1.54,"I","","0"
+"EGY|Egypt",818,"Harvested irrigated permanent crop area: Olives",4525,2002,50.0,"E","","6113"
+"EGY|Egypt",818,"Harvested irrigated permanent crop area: Olives",4525,2007,50.0,"I","","0"
+"EGY|Egypt",818,"Harvested irrigated permanent crop area: Olives",4525,2012,50.0,"I","","0"
+"EGY|Egypt",818,"Harvested irrigated permanent crop area: Olives",4525,2017,50.0,"I","","0"
+"EGY|Egypt",818,"Harvested irrigated permanent crop area: Olives",4525,2018,50.0,"I","","0"
+"GRC|Greece",300,"Harvested irrigated permanent crop area: Olives",4525,2012,366.9,"I","","0"
+"GRC|Greece",300,"Harvested irrigated permanent crop area: Olives",4525,2017,366.9,"I","","0"
+"GRC|Greece",300,"Harvested irrigated permanent crop area: Olives",4525,2018,366.9,"I","","0"
+"ITA|Italy",380,"Harvested irrigated permanent crop area: Olives",4525,2012,120.0,"I","","0"
+"ITA|Italy",380,"Harvested irrigated permanent crop area: Olives",4525,2017,120.0,"I","","0"
+"ITA|Italy",380,"Harvested irrigated permanent crop area: Olives",4525,2018,120.0,"I","","0"
+"LBN|Lebanon",422,"Harvested irrigated permanent crop area: Olives",4525,2012,9.7,"I","","0"
+"LBN|Lebanon",422,"Harvested irrigated permanent crop area: Olives",4525,2017,9.7,"I","","0"
+"LBN|Lebanon",422,"Harvested irrigated permanent crop area: Olives",4525,2018,9.7,"I","","0"
+"LBY|Libya",434,"Harvested irrigated permanent crop area: Olives",4525,2002,105.0,"I","","0"
+"LBY|Libya",434,"Harvested irrigated permanent crop area: Olives",4525,2007,105.0,"I","","0"
+"LBY|Libya",434,"Harvested irrigated permanent crop area: Olives",4525,2012,105.0,"I","","0"
+"LBY|Libya",434,"Harvested irrigated permanent crop area: Olives",4525,2017,105.0,"I","","0"
+"LBY|Libya",434,"Harvested irrigated permanent crop area: Olives",4525,2018,105.0,"I","","0"
+"MAR|Morocco",504,"Harvested irrigated permanent crop area: Olives",4525,2002,190.75,"I","","0"
+"MAR|Morocco",504,"Harvested irrigated permanent crop area: Olives",4525,2007,246.8,"I","","0"
+"MAR|Morocco",504,"Harvested irrigated permanent crop area: Olives",4525,2012,330.0,"I","","0"
+"MAR|Morocco",504,"Harvested irrigated permanent crop area: Olives",4525,2017,330.0,"I","","0"
+"MAR|Morocco",504,"Harvested irrigated permanent crop area: Olives",4525,2018,330.0,"I","","0"
+"PRT|Portugal",620,"Harvested irrigated permanent crop area: Olives",4525,2012,37.88,"I","","0"
+"PRT|Portugal",620,"Harvested irrigated permanent crop area: Olives",4525,2017,37.88,"I","","0"
+"PRT|Portugal",620,"Harvested irrigated permanent crop area: Olives",4525,2018,37.88,"I","","0"
+"ESP|Spain",724,"Harvested irrigated permanent crop area: Olives",4525,2012,452.9,"I","","0"
+"ESP|Spain",724,"Harvested irrigated permanent crop area: Olives",4525,2017,452.9,"I","","0"
+"ESP|Spain",724,"Harvested irrigated permanent crop area: Olives",4525,2018,452.9,"I","","0"
+"TUN|Tunisia",788,"Harvested irrigated permanent crop area: Olives",4525,2012,62.38,"I","","0"
+"TUN|Tunisia",788,"Harvested irrigated permanent crop area: Olives",4525,2017,62.38,"I","","0"
+"TUN|Tunisia",788,"Harvested irrigated permanent crop area: Olives",4525,2018,62.38,"I","","0"
+""
+
+-- Coverage
+-- Computation information
+-- General
+-- Accuracy
+(c)  FAO of the UN
+The information contained in AQUASTAT is provided free of charge to all users. Recommended citation:<br/>
+FAO [Year of publication].AQUASTAT Database. AQUASTAT&nbsp;<a href=""http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"" target=""_blank"">Website</a>&nbsp;accessed on&nbsp;[12/11/2021 8:15]
+ 
