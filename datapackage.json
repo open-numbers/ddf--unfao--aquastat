@@ -1,13 +1,13 @@
 {
     "name": "ddf--fao--aquastat",
-    "language": {
-        "id": "en"
-    },
     "title": "ddf--unfao--aquastat",
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-08-08T07:58:34.305054+00:00",
+    "language": {
+        "id": "en"
+    },
+    "created": "2024-08-26T03:22:59.823Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -49,6 +49,26 @@
                 ],
                 "primaryKey": [
                     "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--area",
+            "path": "ddf--entities--area.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "area_id"
+                    }
+                ],
+                "primaryKey": [
+                    "area"
                 ]
             }
         },
@@ -3642,26 +3662,6 @@
                     "year"
                 ]
             }
-        },
-        {
-            "name": "ddf--entities--area",
-            "path": "ddf--entities--area.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "area_id"
-                    }
-                ],
-                "primaryKey": [
-                    "area"
-                ]
-            }
         }
     ],
     "ddfSchema": {
@@ -3672,8 +3672,8 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             },
             {
@@ -3682,8 +3682,8 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             },
             {
