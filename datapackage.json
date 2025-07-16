@@ -7,7 +7,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2024-08-26T03:22:59.823Z",
+    "created": "2025-07-16T07:52:16.595Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -25,6 +25,9 @@
                     },
                     {
                         "name": "variable_id"
+                    },
+                    {
+                        "name": "unit"
                     }
                 ],
                 "primaryKey": [
@@ -73,6 +76,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--agricultural_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--agricultural_water_withdrawal--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "agricultural_water_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year",
             "path": "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
             "schema": {
@@ -106,6 +130,27 @@
                     },
                     {
                         "name": "agricultural_water_withdrawal_as_pct_of_total_water_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--agricultural_water_withdrawal_per_capita--by--area--year",
+            "path": "ddf--datapoints--agricultural_water_withdrawal_per_capita--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "agricultural_water_withdrawal_per_capita"
                     }
                 ],
                 "primaryKey": [
@@ -232,6 +277,69 @@
                     },
                     {
                         "name": "area_equipped_for_full_control_irrigation_sprinkler_irrigation"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_full_control_irrigation_surface_irrigation"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_full_control_irrigation_total"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_irrigation_actually_irrigated"
                     }
                 ],
                 "primaryKey": [
@@ -430,6 +538,69 @@
             }
         },
         {
+            "name": "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_irrigation_equipped_lowland_areas"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_irrigation_spate_irrigation"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year",
+            "path": "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "area_equipped_for_irrigation_total"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year",
             "path": "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year.csv",
             "schema": {
@@ -556,6 +727,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year",
+            "path": "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cultivated_wetlands_and_inland_valley_bottoms_non_equipped"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--dam_capacity_per_capita--by--area--year",
             "path": "ddf--datapoints--dam_capacity_per_capita--by--area--year.csv",
             "schema": {
@@ -589,6 +781,27 @@
                     },
                     {
                         "name": "dependency_ratio"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--desalinated_water_produced--by--area--year",
+            "path": "ddf--datapoints--desalinated_water_produced--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "desalinated_water_produced"
                     }
                 ],
                 "primaryKey": [
@@ -808,6 +1021,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year",
+            "path": "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "flood_recession_cropping_area_non_equipped"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year",
             "path": "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year.csv",
             "schema": {
@@ -820,6 +1054,27 @@
                     },
                     {
                         "name": "fresh_groundwater_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--fresh_surface_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--fresh_surface_water_withdrawal--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "fresh_surface_water_withdrawal"
                     }
                 ],
                 "primaryKey": [
@@ -1858,8 +2113,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year",
-            "path": "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year.csv",
+            "name": "ddf--datapoints--human_development_index_hdi--by--area--year",
+            "path": "ddf--datapoints--human_development_index_hdi--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1869,7 +2124,28 @@
                         "name": "year"
                     },
                     {
-                        "name": "human_development_index_hdi_highest_1"
+                        "name": "human_development_index_hdi"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--industrial_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--industrial_water_withdrawal--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "industrial_water_withdrawal"
                     }
                 ],
                 "primaryKey": [
@@ -1891,6 +2167,27 @@
                     },
                     {
                         "name": "industrial_water_withdrawal_as_pct_of_total_water_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--industrial_water_withdrawal_per_capita--by--area--year",
+            "path": "ddf--datapoints--industrial_water_withdrawal_per_capita--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "industrial_water_withdrawal_per_capita"
                     }
                 ],
                 "primaryKey": [
@@ -2005,6 +2302,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--irrigation_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--irrigation_water_withdrawal--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "irrigation_water_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year",
             "path": "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year.csv",
             "schema": {
@@ -2047,8 +2365,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year",
-            "path": "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year.csv",
+            "name": "ddf--datapoints--municipal_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--municipal_water_withdrawal--by--area--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -2058,7 +2376,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources"
+                        "name": "municipal_water_withdrawal"
                     }
                 ],
                 "primaryKey": [
@@ -2080,6 +2398,27 @@
                     },
                     {
                         "name": "municipal_water_withdrawal_as_pct_of_total_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--municipal_water_withdrawal_per_capita_total_population--by--area--year",
+            "path": "ddf--datapoints--municipal_water_withdrawal_per_capita_total_population--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "municipal_water_withdrawal_per_capita_total_population"
                     }
                 ],
                 "primaryKey": [
@@ -2509,27 +2848,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year",
-            "path": "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "area"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "pct_of_cultivated_land_irrigated_harvested_crop"
-                    }
-                ],
-                "primaryKey": [
-                    "area",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year",
             "path": "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year.csv",
             "schema": {
@@ -2803,6 +3121,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--produced_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--produced_municipal_wastewater--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "produced_municipal_wastewater"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year",
             "path": "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year.csv",
             "schema": {
@@ -2815,6 +3154,27 @@
                     },
                     {
                         "name": "ratio_between_rainfed_and_irrigated_yields"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--regional_renewable_water_resources--by--area--year",
+            "path": "ddf--datapoints--regional_renewable_water_resources--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "regional_renewable_water_resources"
                     }
                 ],
                 "primaryKey": [
@@ -2941,6 +3301,69 @@
                     },
                     {
                         "name": "sdg_6_4_1_water_use_efficiency"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_2_agricultural_sector_contribution_to_water_stress--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_2_agricultural_sector_contribution_to_water_stress--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_2_agricultural_sector_contribution_to_water_stress"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_2_industrial_sector_contribution_to_water_stress--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_2_industrial_sector_contribution_to_water_stress--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_2_industrial_sector_contribution_to_water_stress"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sdg_6_4_2_municipal_sector_contribution_to_water_stress--by--area--year",
+            "path": "ddf--datapoints--sdg_6_4_2_municipal_sector_contribution_to_water_stress--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sdg_6_4_2_municipal_sector_contribution_to_water_stress"
                     }
                 ],
                 "primaryKey": [
@@ -3286,6 +3709,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--total_agricultural_water_managed_area--by--area--year",
+            "path": "ddf--datapoints--total_agricultural_water_managed_area--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_agricultural_water_managed_area"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year",
             "path": "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year.csv",
             "schema": {
@@ -3382,6 +3826,27 @@
                     },
                     {
                         "name": "total_freshwater_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year",
+            "path": "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_harvested_irrigated_crop_area_full_control_irrigation"
                     }
                 ],
                 "primaryKey": [
@@ -3559,6 +4024,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--total_water_withdrawal--by--area--year",
+            "path": "ddf--datapoints--total_water_withdrawal--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_water_withdrawal"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year",
             "path": "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year.csv",
             "schema": {
@@ -3571,6 +4057,27 @@
                     },
                     {
                         "name": "total_water_withdrawal_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--treated_municipal_wastewater--by--area--year",
+            "path": "ddf--datapoints--treated_municipal_wastewater--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "treated_municipal_wastewater"
                     }
                 ],
                 "primaryKey": [
@@ -3662,6 +4169,69 @@
                     "year"
                 ]
             }
+        },
+        {
+            "name": "ddf--datapoints--water_withdrawal_for_aquaculture--by--area--year",
+            "path": "ddf--datapoints--water_withdrawal_for_aquaculture--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "water_withdrawal_for_aquaculture"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--water_withdrawal_for_cooling_of_thermoelectric_plants--by--area--year",
+            "path": "ddf--datapoints--water_withdrawal_for_cooling_of_thermoelectric_plants--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "water_withdrawal_for_cooling_of_thermoelectric_plants"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--water_withdrawal_for_livestock_watering_and_cleaning--by--area--year",
+            "path": "ddf--datapoints--water_withdrawal_for_livestock_watering_and_cleaning--by--area--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "area"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "water_withdrawal_for_livestock_watering_and_cleaning"
+                    }
+                ],
+                "primaryKey": [
+                    "area",
+                    "year"
+                ]
+            }
         }
     ],
     "ddfSchema": {
@@ -3683,6 +4253,15 @@
                 "value": "name",
                 "resources": [
                     "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "unit",
+                "resources": [
                     "ddf--concepts--continuous"
                 ]
             },
@@ -3722,6 +4301,16 @@
                     "area",
                     "year"
                 ],
+                "value": "agricultural_water_withdrawal",
+                "resources": [
+                    "ddf--datapoints--agricultural_water_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources",
                 "resources": [
                     "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year"
@@ -3735,6 +4324,16 @@
                 "value": "agricultural_water_withdrawal_as_pct_of_total_water_withdrawal",
                 "resources": [
                     "ddf--datapoints--agricultural_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "agricultural_water_withdrawal_per_capita",
+                "resources": [
+                    "ddf--datapoints--agricultural_water_withdrawal_per_capita--by--area--year"
                 ]
             },
             {
@@ -3795,6 +4394,36 @@
                 "value": "area_equipped_for_full_control_irrigation_sprinkler_irrigation",
                 "resources": [
                     "ddf--datapoints--area_equipped_for_full_control_irrigation_sprinkler_irrigation--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "area_equipped_for_full_control_irrigation_surface_irrigation",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_full_control_irrigation_surface_irrigation--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "area_equipped_for_full_control_irrigation_total",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_full_control_irrigation_total--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "area_equipped_for_irrigation_actually_irrigated",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_irrigation_actually_irrigated--by--area--year"
                 ]
             },
             {
@@ -3892,6 +4521,36 @@
                     "area",
                     "year"
                 ],
+                "value": "area_equipped_for_irrigation_equipped_lowland_areas",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_irrigation_equipped_lowland_areas--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "area_equipped_for_irrigation_spate_irrigation",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_irrigation_spate_irrigation--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "area_equipped_for_irrigation_total",
+                "resources": [
+                    "ddf--datapoints--area_equipped_for_irrigation_total--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "area_equipped_for_power_irrigation_surface_water_or_groundwater",
                 "resources": [
                     "ddf--datapoints--area_equipped_for_power_irrigation_surface_water_or_groundwater--by--area--year"
@@ -3952,6 +4611,16 @@
                     "area",
                     "year"
                 ],
+                "value": "cultivated_wetlands_and_inland_valley_bottoms_non_equipped",
+                "resources": [
+                    "ddf--datapoints--cultivated_wetlands_and_inland_valley_bottoms_non_equipped--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "dam_capacity_per_capita",
                 "resources": [
                     "ddf--datapoints--dam_capacity_per_capita--by--area--year"
@@ -3965,6 +4634,16 @@
                 "value": "dependency_ratio",
                 "resources": [
                     "ddf--datapoints--dependency_ratio--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "desalinated_water_produced",
+                "resources": [
+                    "ddf--datapoints--desalinated_water_produced--by--area--year"
                 ]
             },
             {
@@ -4072,9 +4751,29 @@
                     "area",
                     "year"
                 ],
+                "value": "flood_recession_cropping_area_non_equipped",
+                "resources": [
+                    "ddf--datapoints--flood_recession_cropping_area_non_equipped--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "fresh_groundwater_withdrawal",
                 "resources": [
                     "ddf--datapoints--fresh_groundwater_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "fresh_surface_water_withdrawal",
+                "resources": [
+                    "ddf--datapoints--fresh_surface_water_withdrawal--by--area--year"
                 ]
             },
             {
@@ -4572,9 +5271,19 @@
                     "area",
                     "year"
                 ],
-                "value": "human_development_index_hdi_highest_1",
+                "value": "human_development_index_hdi",
                 "resources": [
-                    "ddf--datapoints--human_development_index_hdi_highest_1--by--area--year"
+                    "ddf--datapoints--human_development_index_hdi--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "industrial_water_withdrawal",
+                "resources": [
+                    "ddf--datapoints--industrial_water_withdrawal--by--area--year"
                 ]
             },
             {
@@ -4585,6 +5294,16 @@
                 "value": "industrial_water_withdrawal_as_pct_of_total_water_withdrawal",
                 "resources": [
                     "ddf--datapoints--industrial_water_withdrawal_as_pct_of_total_water_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "industrial_water_withdrawal_per_capita",
+                "resources": [
+                    "ddf--datapoints--industrial_water_withdrawal_per_capita--by--area--year"
                 ]
             },
             {
@@ -4642,6 +5361,16 @@
                     "area",
                     "year"
                 ],
+                "value": "irrigation_water_withdrawal",
+                "resources": [
+                    "ddf--datapoints--irrigation_water_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "long_term_average_annual_precipitation_in_depth",
                 "resources": [
                     "ddf--datapoints--long_term_average_annual_precipitation_in_depth--by--area--year"
@@ -4662,9 +5391,9 @@
                     "area",
                     "year"
                 ],
-                "value": "mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources",
+                "value": "municipal_water_withdrawal",
                 "resources": [
-                    "ddf--datapoints--mdg_7_5_freshwater_withdrawal_as_pct_of_total_renewable_water_resources--by--area--year"
+                    "ddf--datapoints--municipal_water_withdrawal--by--area--year"
                 ]
             },
             {
@@ -4675,6 +5404,16 @@
                 "value": "municipal_water_withdrawal_as_pct_of_total_withdrawal",
                 "resources": [
                     "ddf--datapoints--municipal_water_withdrawal_as_pct_of_total_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "municipal_water_withdrawal_per_capita_total_population",
+                "resources": [
+                    "ddf--datapoints--municipal_water_withdrawal_per_capita_total_population--by--area--year"
                 ]
             },
             {
@@ -4882,16 +5621,6 @@
                     "area",
                     "year"
                 ],
-                "value": "pct_of_cultivated_land_irrigated_harvested_crop",
-                "resources": [
-                    "ddf--datapoints--pct_of_cultivated_land_irrigated_harvested_crop--by--area--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "area",
-                    "year"
-                ],
                 "value": "pct_of_irrigation_potential_equipped_for_irrigation",
                 "resources": [
                     "ddf--datapoints--pct_of_irrigation_potential_equipped_for_irrigation--by--area--year"
@@ -5022,9 +5751,29 @@
                     "area",
                     "year"
                 ],
+                "value": "produced_municipal_wastewater",
+                "resources": [
+                    "ddf--datapoints--produced_municipal_wastewater--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "ratio_between_rainfed_and_irrigated_yields",
                 "resources": [
                     "ddf--datapoints--ratio_between_rainfed_and_irrigated_yields--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "regional_renewable_water_resources",
+                "resources": [
+                    "ddf--datapoints--regional_renewable_water_resources--by--area--year"
                 ]
             },
             {
@@ -5085,6 +5834,36 @@
                 "value": "sdg_6_4_1_water_use_efficiency",
                 "resources": [
                     "ddf--datapoints--sdg_6_4_1_water_use_efficiency--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_2_agricultural_sector_contribution_to_water_stress",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_2_agricultural_sector_contribution_to_water_stress--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_2_industrial_sector_contribution_to_water_stress",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_2_industrial_sector_contribution_to_water_stress--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "sdg_6_4_2_municipal_sector_contribution_to_water_stress",
+                "resources": [
+                    "ddf--datapoints--sdg_6_4_2_municipal_sector_contribution_to_water_stress--by--area--year"
                 ]
             },
             {
@@ -5252,6 +6031,16 @@
                     "area",
                     "year"
                 ],
+                "value": "total_agricultural_water_managed_area",
+                "resources": [
+                    "ddf--datapoints--total_agricultural_water_managed_area--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "total_area_of_the_country_excl_coastal_water",
                 "resources": [
                     "ddf--datapoints--total_area_of_the_country_excl_coastal_water--by--area--year"
@@ -5295,6 +6084,16 @@
                 "value": "total_freshwater_withdrawal",
                 "resources": [
                     "ddf--datapoints--total_freshwater_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "total_harvested_irrigated_crop_area_full_control_irrigation",
+                "resources": [
+                    "ddf--datapoints--total_harvested_irrigated_crop_area_full_control_irrigation--by--area--year"
                 ]
             },
             {
@@ -5382,9 +6181,29 @@
                     "area",
                     "year"
                 ],
+                "value": "total_water_withdrawal",
+                "resources": [
+                    "ddf--datapoints--total_water_withdrawal--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
                 "value": "total_water_withdrawal_per_capita",
                 "resources": [
                     "ddf--datapoints--total_water_withdrawal_per_capita--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "treated_municipal_wastewater",
+                "resources": [
+                    "ddf--datapoints--treated_municipal_wastewater--by--area--year"
                 ]
             },
             {
@@ -5425,6 +6244,36 @@
                 "value": "water_resources_total_external_renewable",
                 "resources": [
                     "ddf--datapoints--water_resources_total_external_renewable--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "water_withdrawal_for_aquaculture",
+                "resources": [
+                    "ddf--datapoints--water_withdrawal_for_aquaculture--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "water_withdrawal_for_cooling_of_thermoelectric_plants",
+                "resources": [
+                    "ddf--datapoints--water_withdrawal_for_cooling_of_thermoelectric_plants--by--area--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "area",
+                    "year"
+                ],
+                "value": "water_withdrawal_for_livestock_watering_and_cleaning",
+                "resources": [
+                    "ddf--datapoints--water_withdrawal_for_livestock_watering_and_cleaning--by--area--year"
                 ]
             }
         ],
